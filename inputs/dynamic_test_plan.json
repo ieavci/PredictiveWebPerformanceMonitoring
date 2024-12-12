@@ -1,0 +1,343 @@
+{
+    "users": 48,
+    "duration": 37,
+    "requests": [
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "POST",
+            "params": {
+                "id": 771
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "DELETE",
+            "params": {
+                "id": 227
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "PUT",
+            "params": {
+                "id": 508
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "PUT",
+            "params": {
+                "id": 186
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "DELETE",
+            "params": {
+                "id": 382
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "PUT",
+            "params": {
+                "id": 749
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "GET",
+            "params": {
+                "id": 765
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "PUT",
+            "params": {
+                "id": 62
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "POST",
+            "params": {
+                "id": 305
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "GET",
+            "params": {
+                "id": 932
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "DELETE",
+            "params": {
+                "id": 624
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "POST",
+            "params": {
+                "id": 720
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "PUT",
+            "params": {
+                "id": 636
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "DELETE",
+            "params": {
+                "id": 425
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "POST",
+            "params": {
+                "id": 539
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "GET",
+            "params": {
+                "id": 919
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "PUT",
+            "params": {
+                "id": 609
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "GET",
+            "params": {
+                "id": 723
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "DELETE",
+            "params": {
+                "id": 3
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "DELETE",
+            "params": {
+                "id": 263
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "POST",
+            "params": {
+                "id": 408
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "GET",
+            "params": {
+                "id": 775
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "PUT",
+            "params": {
+                "id": 362
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "DELETE",
+            "params": {
+                "id": 4
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "PUT",
+            "params": {
+                "id": 571
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "DELETE",
+            "params": {
+                "id": 856
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "POST",
+            "params": {
+                "id": 324
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "GET",
+            "params": {
+                "id": 531
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "POST",
+            "params": {
+                "id": 348
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "POST",
+            "params": {
+                "id": 251
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "DELETE",
+            "params": {
+                "id": 775
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "POST",
+            "params": {
+                "id": 8
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "PUT",
+            "params": {
+                "id": 565
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "POST",
+            "params": {
+                "id": 698
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "POST",
+            "params": {
+                "id": 331
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "DELETE",
+            "params": {
+                "id": 195
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "GET",
+            "params": {
+                "id": 19
+            }
+        },
+        {
+            "endpoint": "/butik/liste/1/kadin",
+            "method": "DELETE",
+            "params": {
+                "id": 273
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "DELETE",
+            "params": {
+                "id": 540
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "DELETE",
+            "params": {
+                "id": 782
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "DELETE",
+            "params": {
+                "id": 923
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "POST",
+            "params": {
+                "id": 232
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "DELETE",
+            "params": {
+                "id": 796
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "DELETE",
+            "params": {
+                "id": 659
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "PUT",
+            "params": {
+                "id": 318
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "PUT",
+            "params": {
+                "id": 602
+            }
+        },
+        {
+            "endpoint": "/butik/liste/16/supermarket",
+            "method": "DELETE",
+            "params": {
+                "id": 727
+            }
+        },
+        {
+            "endpoint": "/",
+            "method": "PUT",
+            "params": {
+                "id": 405
+            }
+        }
+    ],
+    "timestamp": "2024-12-12T13:55:10.115915"
+}
