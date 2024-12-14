@@ -1,6 +1,7 @@
+import os
 import pandas as pd
 
-def analyze_detailed_results(file_path):
+def analyze_detailed_results(file_path, output_dir):
     """
     Perform detailed analysis on JMeter results.
     """
@@ -29,6 +30,10 @@ def analyze_detailed_results(file_path):
         print(f"Maksimum Yanıt Süresi: {max_response_time:.2f} ms")
         print(f"Minimum Yanıt Süresi: {min_response_time:.2f} ms")
 
+        # Ensure output directory exists
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+
         # Save summary results to a new CSV
         summary = {
             "Hata Oranı (%)": [error_rate],
@@ -37,8 +42,8 @@ def analyze_detailed_results(file_path):
             "Minimum Yanıt Süresi (ms)": [min_response_time]
         }
         summary_df = pd.DataFrame(summary)
-        summary_df.to_csv('../outputs/summary_results.csv', index=False)
-        print("Özet sonuçlar 'summary_results.csv' dosyasına kaydedildi.")
+        summary_df.to_csv(os.path.join(output_dir, 'summary_results.csv'), index=False)
+        print("Özet sonuçlar 'results.csv' dosyasına kaydedildi.")
 
     except FileNotFoundError:
         print(f"Error: File not found at {file_path}. Please check the file path and try again.")
@@ -46,10 +51,3 @@ def analyze_detailed_results(file_path):
         print(f"Error: {ve}")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
-
-if __name__ == "__main__":
-    # Define the file path for JMeter results
-    file_path = '../outputs/results.csv'
-
-    # Run the analysis
-    analyze_detailed_results(file_path)

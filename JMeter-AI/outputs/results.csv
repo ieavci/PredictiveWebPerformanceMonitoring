@@ -1,0 +1,61 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1734170617819,995,HTTP Request,200,OK,Thread Group 1-2,text,true,,281620,236,3,3,https://www.trendyol.com/,94,0,34
+1734170617819,94,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,1186,118,3,3,http://www.trendyol.com/,94,0,34
+1734170617914,900,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,280434,118,3,3,https://www.trendyol.com/,505,0,200
+1734170617458,1370,HTTP Request,200,OK,Thread Group 1-1,text,true,,281620,236,4,4,https://www.trendyol.com/,137,0,48
+1734170617458,149,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1188,118,4,4,http://www.trendyol.com/,137,0,48
+1734170617611,1217,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,280432,118,4,4,https://www.trendyol.com/,860,0,503
+1734170618318,703,HTTP Request,200,OK,Thread Group 1-3,text,true,,281612,236,4,4,https://www.trendyol.com/,98,0,31
+1734170618318,98,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,1186,118,4,4,http://www.trendyol.com/,98,0,31
+1734170618417,604,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,280426,118,4,4,https://www.trendyol.com/,521,0,103
+1734170618817,245,HTTP Request,200,OK,Thread Group 1-2,text,true,,281613,236,4,4,https://www.trendyol.com/,46,0,0
+1734170618817,46,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,1188,118,4,4,http://www.trendyol.com/,46,0,0
+1734170618864,198,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,280425,118,4,4,https://www.trendyol.com/,170,0,0
+1734170618829,339,HTTP Request,200,OK,Thread Group 1-1,text,true,,281607,236,3,3,https://www.trendyol.com/,52,0,0
+1734170618829,53,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1186,118,3,3,http://www.trendyol.com/,52,0,0
+1734170618882,286,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,280421,118,3,3,https://www.trendyol.com/,249,0,0
+1734170618817,422,HTTP Request,200,OK,Thread Group 1-4,text,true,,281606,236,2,2,https://www.trendyol.com/,83,0,35
+1734170618817,83,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,1188,118,2,2,http://www.trendyol.com/,83,0,35
+1734170618901,338,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,280418,118,2,2,https://www.trendyol.com/,238,0,73
+1734170619022,310,HTTP Request,200,OK,Thread Group 1-3,text,true,,281624,236,3,3,https://www.trendyol.com/,51,0,0
+1734170619022,51,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,1188,118,3,3,http://www.trendyol.com/,51,0,0
+1734170619073,259,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,280436,118,3,3,https://www.trendyol.com/,228,0,0
+1734170619240,330,HTTP Request,200,OK,Thread Group 1-4,text,true,,281609,236,2,2,https://www.trendyol.com/,50,0,0
+1734170619240,50,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,1188,118,2,2,http://www.trendyol.com/,50,0,0
+1734170619291,279,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,280421,118,2,2,https://www.trendyol.com/,245,0,0
+1734170619318,521,HTTP Request,200,OK,Thread Group 1-5,text,true,,281602,236,2,2,https://www.trendyol.com/,92,0,29
+1734170619318,92,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,1186,118,2,2,http://www.trendyol.com/,92,0,29
+1734170619411,428,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,280416,118,2,2,https://www.trendyol.com/,315,0,65
+1734170619840,260,HTTP Request,200,OK,Thread Group 1-5,text,true,,281617,236,2,2,https://www.trendyol.com/,45,0,0
+1734170619840,45,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,1186,118,2,2,http://www.trendyol.com/,45,0,0
+1734170619885,215,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,280431,118,2,2,https://www.trendyol.com/,186,0,0
+1734170619817,388,HTTP Request,200,OK,Thread Group 1-6,text,true,,281604,236,1,1,https://www.trendyol.com/,78,0,27
+1734170619817,79,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,1186,118,1,1,http://www.trendyol.com/,78,0,27
+1734170619896,309,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,280418,118,1,1,https://www.trendyol.com/,212,0,65
+1734170620205,867,HTTP Request,200,OK,Thread Group 1-6,text,true,,281626,236,3,3,https://www.trendyol.com/,53,0,0
+1734170620205,53,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,1188,118,3,3,http://www.trendyol.com/,53,0,0
+1734170620258,814,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,280438,118,3,3,https://www.trendyol.com/,272,0,0
+1734170620315,966,HTTP Request,200,OK,Thread Group 1-7,text,true,,281604,236,2,2,https://www.trendyol.com/,76,0,30
+1734170620315,84,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,1186,118,2,2,http://www.trendyol.com/,76,0,30
+1734170620400,881,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,280418,118,2,2,https://www.trendyol.com/,791,0,115
+1734170621282,318,HTTP Request,200,OK,Thread Group 1-7,text,true,,281628,236,3,3,https://www.trendyol.com/,107,0,0
+1734170621282,107,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,1186,118,3,3,http://www.trendyol.com/,107,0,0
+1734170621390,210,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,280442,118,3,3,https://www.trendyol.com/,172,0,0
+1734170621314,491,HTTP Request,200,OK,Thread Group 1-9,text,true,,281613,236,2,2,https://www.trendyol.com/,128,0,74
+1734170621314,129,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,1188,118,2,2,http://www.trendyol.com/,128,0,74
+1734170621444,361,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,280425,118,2,2,https://www.trendyol.com/,264,0,78
+1734170620816,1220,HTTP Request,200,OK,Thread Group 1-8,text,true,,281611,236,3,3,https://www.trendyol.com/,243,0,192
+1734170620816,243,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,1188,118,3,3,http://www.trendyol.com/,243,0,192
+1734170621060,976,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,280423,118,3,3,https://www.trendyol.com/,897,0,73
+1734170621805,327,HTTP Request,200,OK,Thread Group 1-9,text,true,,281625,236,3,3,https://www.trendyol.com/,106,0,0
+1734170621805,106,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,1188,118,3,3,http://www.trendyol.com/,106,0,0
+1734170621911,221,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,280437,118,3,3,https://www.trendyol.com/,186,0,0
+1734170621814,485,HTTP Request,200,OK,Thread Group 1-10,text,true,,281620,236,2,2,https://www.trendyol.com/,132,0,78
+1734170621814,133,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,1186,118,2,2,http://www.trendyol.com/,132,0,78
+1734170621947,352,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,280434,118,2,2,https://www.trendyol.com/,239,0,71
+1734170622037,301,HTTP Request,200,OK,Thread Group 1-8,text,true,,281615,236,2,2,https://www.trendyol.com/,46,0,0
+1734170622037,46,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,1186,118,2,2,http://www.trendyol.com/,46,0,0
+1734170622083,255,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,280429,118,2,2,https://www.trendyol.com/,226,0,0
+1734170622299,277,HTTP Request,200,OK,Thread Group 1-10,text,true,,281619,236,1,1,https://www.trendyol.com/,69,0,0
+1734170622299,69,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,1188,118,1,1,http://www.trendyol.com/,69,0,0
+1734170622368,208,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,280431,118,1,1,https://www.trendyol.com/,168,0,0
