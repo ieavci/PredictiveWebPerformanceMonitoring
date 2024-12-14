@@ -1,245 +1,168 @@
 {
     "base_url": "www.trendyol.com",
     "path": "/",
-    "users": 255,
-    "duration": 46,
+    "users": 226,
+    "duration": 14,
     "requests": [
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 678
+                "id": 829
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 418
+                "id": 275
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 992
+                "id": 5
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 413
+                "id": 806
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 976
+                "id": 395
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 222
+                "id": 583
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 852
+                "id": 555
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 226
+                "id": 137
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 417
+                "id": 338
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 226
+                "id": 838
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 16
+                "id": 342
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 933
+                "id": 872
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 945
+                "id": 662
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 707
+                "id": 459
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 433
+                "id": 591
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 420
+                "id": 735
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 507
+                "id": 265
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 456
+                "id": 46
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 254
+                "id": 946
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 4
+                "id": 486
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 288
+                "id": 150
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 136
+                "id": 57
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 366
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 96
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 466
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 157
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 508
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 976
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 125
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 684
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 947
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 134
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 375
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 121
+                "id": 929
             }
         },
         {
@@ -253,602 +176,91 @@
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 789
+                "id": 935
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 808
+                "id": 287
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 276
+                "id": 275
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 101
+                "id": 499
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 759
+                "id": 921
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 129
+                "id": 283
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 417
+                "id": 469
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 867
+                "id": 473
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 107
+                "id": 317
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 46
+                "id": 295
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 660
+                "id": 629
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 320
+                "id": 457
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 301
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 819
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 244
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 850
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 211
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 686
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 244
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 965
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 826
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 503
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 885
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 882
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 470
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 904
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 914
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 750
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 597
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 837
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 775
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 559
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 398
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 119
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 355
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 111
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 862
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 726
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 241
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 907
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 375
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 617
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 168
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 646
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 500
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 202
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 984
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 252
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 274
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 421
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 494
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 18
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 827
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 853
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 809
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 33
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 588
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 758
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 113
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 904
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 828
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 686
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 689
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 640
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 514
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 604
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 306
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 973
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 914
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 410
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 829
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 504
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 684
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 153
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 535
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 262
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 778
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 402
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 551
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 354
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 703
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 182
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 975
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 68
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 813
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 810
+                "id": 338
             }
         },
         {
@@ -862,35 +274,21 @@
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 9
+                "id": 253
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 290
+                "id": 635
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 651
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 998
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 63
+                "id": 983
             }
         },
         {
@@ -904,602 +302,21 @@
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 313
+                "id": 921
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 301
+                "id": 460
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 219
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 69
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 514
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 690
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 932
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 883
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 581
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 773
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 307
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 47
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 987
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 337
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 574
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 943
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 831
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 639
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 888
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 733
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 685
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 376
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 725
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 235
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 783
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 190
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 732
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 1
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 243
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 4
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 117
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 419
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 326
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 260
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 442
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 738
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 10
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 7
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 817
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 720
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 889
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 991
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 332
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 850
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 943
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 106
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 186
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 121
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 160
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 103
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 853
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 963
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 807
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 967
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 168
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 409
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 755
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 790
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 383
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 590
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 692
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 536
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 277
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 199
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 627
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 191
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 93
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 705
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 720
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 745
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 347
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 710
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 574
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 98
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 297
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 98
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 714
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 846
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 262
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 373
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 173
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 543
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 356
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 434
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 558
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 873
+                "id": 197
             }
         },
         {
@@ -1513,224 +330,70 @@
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 503
+                "id": 853
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 657
+                "id": 661
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 694
+                "id": 228
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 124
+                "id": 411
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 37
+                "id": 273
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 820
+                "id": 519
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 100
+                "id": 845
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 146
+                "id": 198
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 180
+                "id": 30
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 716
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 154
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 117
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 789
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 145
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 45
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 863
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 847
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 753
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 182
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 167
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 479
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 966
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 878
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 891
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 821
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 813
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 830
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 87
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 361
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 314
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 116
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 290
+                "id": 317
             }
         },
         {
@@ -1744,6 +407,461 @@
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
+                "id": 970
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 642
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 658
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 354
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 28
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 715
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 713
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 10
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 111
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 455
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 87
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 617
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 789
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 848
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 964
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 265
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 320
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 462
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 775
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 956
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 67
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 53
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 17
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 8
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 181
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 354
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 526
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 4
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 280
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 914
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 206
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 537
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 961
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 732
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 483
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 782
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 336
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 322
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 490
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 854
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 822
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 80
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 19
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 691
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 811
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 178
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 825
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 770
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 581
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 445
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 849
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 86
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 281
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 491
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 480
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 918
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 64
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 690
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 476
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 879
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 675
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 352
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 312
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 311
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 139
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
                 "id": 885
             }
         },
@@ -1751,28 +869,532 @@
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 18
+                "id": 601
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 46
+                "id": 562
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 442
+                "id": 661
             }
         },
         {
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 138
+                "id": 12
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 833
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 588
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 604
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 136
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 809
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 124
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 962
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 316
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 425
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 298
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 241
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 946
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 217
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 617
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 236
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 263
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 372
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 201
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 118
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 380
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 456
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 377
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 776
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 596
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 658
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 45
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 215
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 182
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 998
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 341
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 731
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 510
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 389
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 194
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 888
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 811
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 985
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 542
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 227
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 814
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 979
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 491
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 912
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 904
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 875
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 686
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 120
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 922
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 630
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 505
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 852
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 3
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 316
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 850
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 745
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 1
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 646
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 750
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 787
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 89
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 777
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 478
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 613
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 364
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 247
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 203
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 809
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 136
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 124
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 663
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 925
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 352
             }
         },
         {
@@ -1786,7 +1408,182 @@
             "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 113
+                "id": 257
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 948
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 24
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 280
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 51
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 553
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 904
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 227
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 945
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 416
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 349
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 332
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 848
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 834
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 761
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 472
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 971
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 112
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 636
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 206
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 155
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 16
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 340
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 205
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 914
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 139
             }
         }
     ]

@@ -43,7 +43,7 @@ def analyze_detailed_results(file_path, output_dir):
         }
         summary_df = pd.DataFrame(summary)
         summary_df.to_csv(os.path.join(output_dir, 'summary_results.csv'), index=False)
-        print("Özet sonuçlar 'results.csv' dosyasına kaydedildi.")
+        print("Özet sonuçlar 'summary_results.csv' dosyasına kaydedildi.")
 
     except FileNotFoundError:
         print(f"Error: File not found at {file_path}. Please check the file path and try again.")

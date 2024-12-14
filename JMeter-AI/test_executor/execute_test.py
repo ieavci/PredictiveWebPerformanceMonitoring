@@ -9,7 +9,7 @@ sys.path.append(BASE_DIR)
 
 def run_jmeter_test(input_file, output_file):
     # Sabit test planı dosyasının tam yolu
-    test_plan_path = os.path.abspath("C:/Users/iavcc/Desktop/Online Dersler/Kalite Güvencesi ve Testi/JMeter-AI/inputs/test_plan.jmx")
+    test_plan_path = os.path.abspath("C:/Users/iavcc/Documents/GitHub/PredictiveWebPerformanceMonitoring/JMeter-AI/inputs/test_plan.jmx")
 
     # Mutlak yolları kullan
     input_file = os.path.abspath(input_file)
