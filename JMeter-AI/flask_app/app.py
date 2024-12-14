@@ -1,6 +1,7 @@
 
 import sys
 import os
+import pandas as pd
 
 # Proje kök dizinini belirle
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -53,6 +54,20 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+
+@app.route('/summary-results')
+def summary_results():
+    summary_file = os.path.join(OUTPUTS_DIR, 'summary_results.csv')
+    if not os.path.exists(summary_file):
+        return "Summary results not found. Please run a test first.", 404
+
+    # CSV dosyasını oku
+    summary_df = pd.read_csv(summary_file)
+    summary_data = summary_df.to_dict(orient='records')  # Tablo verisi olarak dönüştür
+
+    return render_template('summary_results.html', summary_data=summary_data)
+
+
 @app.route('/run-test', methods=['POST'])
 def run_test():
     base_url = request.form['base_url']
@@ -73,7 +88,7 @@ def run_test():
     # Çıktıyı analiz et
     results = analyze_detailed_results(output_path, OUTPUTS_DIR)
 
-    return redirect(url_for('index'))
+    return redirect(url_for('summary_results'))
 
 
 if __name__ == '__main__':

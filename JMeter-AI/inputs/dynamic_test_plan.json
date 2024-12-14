@@ -1,1589 +1,1596 @@
 {
-    "base_url": "www.trendyol.com",
+    "base_url": "www.ardacanuysal.com",
     "path": "/",
-    "users": 226,
-    "duration": 14,
+    "users": 227,
+    "duration": 38,
     "requests": [
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 829
+                "id": 666
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 275
+                "id": 270
             }
         },
         {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 5
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 806
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
                 "id": 395
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 583
+                "id": 351
             }
         },
         {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 555
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 137
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 338
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 838
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 342
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 872
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 662
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 459
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 591
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 735
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 265
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 46
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 946
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 486
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 150
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 57
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 929
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 208
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 935
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 287
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 275
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 499
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 921
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 283
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 469
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 473
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 317
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 295
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 629
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 457
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 338
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 531
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 253
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 635
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 983
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 649
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 921
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 460
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 197
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 164
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 853
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 661
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 228
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 411
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 273
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 519
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 845
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 198
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 30
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 317
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 230
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 970
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 642
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 658
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 354
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 28
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 715
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 713
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 10
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 111
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 455
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 87
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 617
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 789
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 848
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 964
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 265
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 320
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 462
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 775
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 956
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 67
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 53
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 17
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 8
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 181
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 354
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 526
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 4
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 280
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 914
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 206
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 537
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 961
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 732
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 483
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 782
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 336
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 322
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 490
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 854
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 822
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 80
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 19
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 691
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 811
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 178
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 825
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 770
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 581
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 445
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 849
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 86
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 281
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 491
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 480
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 918
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 64
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 690
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 476
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 879
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 675
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 352
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 312
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 311
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 139
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 885
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 601
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 562
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 661
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 12
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 833
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 588
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 604
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 136
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 809
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 124
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 962
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 316
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 425
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 298
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 241
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 946
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 217
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 617
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 236
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 263
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 372
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 201
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 118
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 380
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 456
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 377
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 776
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 596
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 658
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 45
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 215
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 182
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 998
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 341
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 731
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 510
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 389
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 194
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 888
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 811
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 985
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 542
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 227
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 814
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 979
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 491
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 912
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 904
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 875
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 686
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 120
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
-            "method": "GET",
-            "params": {
-                "id": 922
-            }
-        },
-        {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
                 "id": 630
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 505
+                "id": 144
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 852
+                "id": 394
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 128
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 204
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 479
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 807
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 532
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 322
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 170
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
                 "id": 3
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 316
+                "id": 736
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 850
+                "id": 965
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 745
+                "id": 196
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 1
+                "id": 835
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 646
+                "id": 995
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 750
+                "id": 33
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 787
+                "id": 670
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 89
+                "id": 307
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 777
+                "id": 612
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 478
+                "id": 698
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 467
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 173
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 696
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 783
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 100
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 669
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 838
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 765
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 516
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 135
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 313
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 260
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 954
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 556
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 939
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 811
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 966
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
                 "id": 613
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 364
+                "id": 376
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 247
+                "id": 218
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 203
+                "id": 245
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 809
+                "id": 277
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 136
+                "id": 478
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 124
+                "id": 943
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 663
+                "id": 647
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 925
+                "id": 977
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 352
+                "id": 815
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 683
+                "id": 21
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 257
+                "id": 426
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 948
+                "id": 709
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 24
+                "id": 909
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 280
+                "id": 480
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 51
+                "id": 646
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 553
+                "id": 528
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 904
+                "id": 722
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 227
+                "id": 774
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 945
+                "id": 703
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 416
+                "id": 890
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 349
+                "id": 427
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 332
+                "id": 6
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 848
+                "id": 249
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 834
+                "id": 590
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 761
+                "id": 572
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 732
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 812
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 558
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 527
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 182
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 466
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 263
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 606
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 902
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 221
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 799
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 876
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 640
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 444
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 50
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 470
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 768
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 478
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 619
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 325
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 310
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 61
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 829
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 129
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 936
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 419
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 503
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 390
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 949
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 535
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
                 "id": 472
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 971
+                "id": 432
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 252
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 848
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 847
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 355
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 161
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 438
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 668
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 460
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 578
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 18
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 212
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 713
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 878
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 382
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 54
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 256
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 399
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 116
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 208
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 200
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 294
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 708
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 187
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 70
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 793
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 557
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 760
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 351
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 996
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 555
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 496
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 479
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 50
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 811
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 740
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 734
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 184
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 789
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 665
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 61
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 952
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 329
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 702
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 827
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 56
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 888
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 211
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 270
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 96
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 445
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 873
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 589
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 445
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 146
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 258
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 157
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 696
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 750
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 954
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 642
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
                 "id": 112
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 636
+                "id": 378
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 206
+                "id": 120
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 155
+                "id": 584
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 16
+                "id": 528
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 340
+                "id": 324
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 205
+                "id": 980
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 914
+                "id": 919
             }
         },
         {
-            "url": "www.trendyol.com/",
+            "url": "www.ardacanuysal.com/",
             "method": "GET",
             "params": {
-                "id": 139
+                "id": 442
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 371
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 284
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 990
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 235
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 451
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 150
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 830
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 932
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 887
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 548
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 530
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 898
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 88
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 661
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 966
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 896
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 99
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 798
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 856
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 477
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 75
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 23
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 89
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 710
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 882
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 231
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 409
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 742
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 911
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 437
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 1000
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 818
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 648
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 747
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 162
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 361
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 728
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 482
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 422
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 629
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 632
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 43
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 495
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 645
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 614
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 109
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 589
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 539
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 58
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 512
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 168
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 479
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 501
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 857
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 63
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 581
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 276
+            }
+        },
+        {
+            "url": "www.ardacanuysal.com/",
+            "method": "GET",
+            "params": {
+                "id": 369
             }
         }
     ]
