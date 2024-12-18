@@ -1,15 +1,12 @@
 import random
 import json
 
-def generate_dynamic_test_plan(base_url, path):
-    users = random.randint(10, 500)
-    duration = random.randint(10, 60)  # Saniye cinsinden
-
+def generate_dynamic_test_plan(base_url, path, users, loop_count):
     test_plan = {
         "base_url": base_url,
         "path": path,
         "users": users,
-        "duration": duration,
+        "loop_count": loop_count,
         "requests": [
             {
                 "url": f"{base_url}{path}",
@@ -20,3 +17,4 @@ def generate_dynamic_test_plan(base_url, path):
         ],
     }
     return json.dumps(test_plan, indent=4)
+

@@ -1,9 +1,10 @@
 import os
 import pandas as pd
+from ai_output_analyzer.anomaly_detector import detect_anomalies
 
-def analyze_detailed_results(file_path, output_dir):
+def analyze_detailed_results(file_path, output_dir, users, loop_count):
     """
-    Perform detailed analysis on JMeter results.
+    Perform detailed analysis on JMeter results and detect anomalies.
     """
     try:
         # Load CSV file
@@ -18,17 +19,14 @@ def analyze_detailed_results(file_path, output_dir):
         data['responseCode'] = pd.to_numeric(data['responseCode'], errors='coerce')
         data = data.dropna(subset=['responseCode'])  # Remove rows with invalid response codes
 
-        # Calculate error rate (HTTP 500 and above)
+        # Calculate error rate and response times
         error_rate = (data['responseCode'] >= 500).mean() * 100
-        print(f"Hata Oranı: {error_rate:.2f}%")
-
-        # Calculate response times
         avg_response_time = data['elapsed'].mean()
         max_response_time = data['elapsed'].max()
         min_response_time = data['elapsed'].min()
-        print(f"Ortalama Yanıt Süresi: {avg_response_time:.2f} ms")
-        print(f"Maksimum Yanıt Süresi: {max_response_time:.2f} ms")
-        print(f"Minimum Yanıt Süresi: {min_response_time:.2f} ms")
+
+        # Detect anomalies
+        anomalies, anomaly_summary = detect_anomalies(file_path)
 
         # Ensure output directory exists
         if not os.path.exists(output_dir):
@@ -36,10 +34,16 @@ def analyze_detailed_results(file_path, output_dir):
 
         # Save summary results to a new CSV
         summary = {
+            "Kullanıcı Sayısı": [users],
+            "Döngü Sayısı (Loop Count)": [loop_count],
             "Hata Oranı (%)": [error_rate],
             "Ortalama Yanıt Süresi (ms)": [avg_response_time],
             "Maksimum Yanıt Süresi (ms)": [max_response_time],
-            "Minimum Yanıt Süresi (ms)": [min_response_time]
+            "Minimum Yanıt Süresi (ms)": [min_response_time],
+            "Anomali Sayısı": [anomaly_summary.get("Total Anomalies", 0)],
+            "Anomali Yüzdesi (%)": [anomaly_summary.get("Anomaly Percentage (%)", 0)],
+            "Maksimum Anormal Yanıt Süresi (ms)": [anomaly_summary.get("Max Response Time (ms)", None)],
+            "Hata Kodlu İstek Sayısı": [anomaly_summary.get("Error Codes Count", 0)],
         }
         summary_df = pd.DataFrame(summary)
         summary_df.to_csv(os.path.join(output_dir, 'summary_results.csv'), index=False)

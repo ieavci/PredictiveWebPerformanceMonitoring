@@ -3,6 +3,9 @@ import sys
 import os
 import pandas as pd
 
+from importlib.machinery import SourceFileLoader
+anomaly_detector = SourceFileLoader("ai_output_analyzer.anomaly_detector", "C:/Users/iavcc/Documents/GitHub/PredictiveWebPerformanceMonitoring/JMeter-AI/ai_output_analyzer/anomaly_detector.py").load_module()
+detect_anomalies = anomaly_detector.detect_anomalies
 # Proje kök dizinini belirle
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(BASE_DIR)
@@ -55,38 +58,60 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/summary-results')
+@app.route('/summary_results')
 def summary_results():
-    summary_file = os.path.join(OUTPUTS_DIR, 'summary_results.csv')
-    if not os.path.exists(summary_file):
-        return "Summary results not found. Please run a test first.", 404
+    try:
+        # CSV dosyasını işleme
+        results_file = 'C:/Users/iavcc/Documents/GitHub/PredictiveWebPerformanceMonitoring/JMeter-AI/outputs/results.csv'
+        anomalies, anomaly_summary = detect_anomalies(results_file)
 
-    # CSV dosyasını oku
-    summary_df = pd.read_csv(summary_file)
-    summary_data = summary_df.to_dict(orient='records')  # Tablo verisi olarak dönüştür
+        # Özet sonuçları yükleme
+        summary_data = pd.read_csv('C:/Users/iavcc/Documents/GitHub/PredictiveWebPerformanceMonitoring/JMeter-AI/outputs/summary_results.csv').to_dict(orient='records')
 
-    return render_template('summary_results.html', summary_data=summary_data)
+        # summary_results.html şablonuna verileri gönderin
+        return render_template(
+            'summary_results.html',
+            summary_data=summary_data,
+            anomaly_summary=anomaly_summary
+        )
+    except FileNotFoundError:
+        return "Summary results file not found.", 404
+    except Exception as e:
+        return f"An error occurred: {e}", 500
+
+
 
 
 @app.route('/run-test', methods=['POST'])
 def run_test():
     base_url = request.form['base_url']
     path = request.form['path']
+    users = int(request.form['users'])  # Kullanıcı girişi
+    loop_count = int(request.form['loop_count'])  # Döngü sayısı girişi
 
     # Dinamik test girdisi oluştur
-    test_plan = generate_dynamic_test_plan(base_url, path)
+    test_plan = generate_dynamic_test_plan(base_url, path, users, loop_count)
 
     # Test girdisini kaydet
     input_path = os.path.join(INPUTS_DIR, 'dynamic_test_plan.json')
-    with open(input_path, 'w') as f:
-        f.write(test_plan)
+    try:
+        with open(input_path, 'w') as f:
+            f.write(test_plan)
+        print(f"Test planı kaydedildi: {input_path}")
+    except Exception as e:
+        print(f"Test planı kaydedilirken hata oluştu: {e}")
+        return "Test planı kaydedilemedi.", 500
 
     # JMeter testi çalıştır
     output_path = os.path.abspath(os.path.join(OUTPUTS_DIR, 'results.csv'))
-    run_jmeter_test(input_path, output_path)
+    try:
+        run_jmeter_test(input_path, output_path)
+    except Exception as e:
+        print(f"JMeter testi çalıştırılırken hata oluştu: {e}")
+        return "Test çalıştırılamadı.", 500
 
-    # Çıktıyı analiz et
-    results = analyze_detailed_results(output_path, OUTPUTS_DIR)
+    # Çıktıyı analiz et ve kullanıcı girdilerini ekle
+    results = analyze_detailed_results(output_path, OUTPUTS_DIR, users, loop_count)
 
     return redirect(url_for('summary_results'))
 

@@ -1,2 +1,2 @@
-Hata Oranı (%),Ortalama Yanıt Süresi (ms),Maksimum Yanıt Süresi (ms),Minimum Yanıt Süresi (ms)
-0.0,304.92333333333335,1370,43
+Kullanıcı Sayısı,Döngü Sayısı (Loop Count),Hata Oranı (%),Ortalama Yanıt Süresi (ms),Maksimum Yanıt Süresi (ms),Minimum Yanıt Süresi (ms),Anomali Sayısı,Anomali Yüzdesi (%),Maksimum Anormal Yanıt Süresi (ms),Hata Kodlu İstek Sayısı
+10,15,0.0,358.3577380952381,2692,41,3,0.17857142857142858,2692,0

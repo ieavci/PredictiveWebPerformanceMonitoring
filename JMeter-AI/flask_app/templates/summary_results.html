@@ -3,27 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summary Results</title>
+    <title>Test Results</title>
     <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #2d2d2d;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        h1, h2 {
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
-            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        th, td {
+            padding: 12px;
             text-align: left;
+            border-bottom: 1px solid #444;
         }
-        table th, table td {
-            border: 1px solid #ddd;
-            padding: 8px;
+        th {
+            background-color: #3a3a3a;
+            color: #4CAF50;
         }
-        table th {
-            background-color: #f4f4f4;
+        tr:hover {
+            background-color: #3a3a3a;
+        }
+        p {
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
-    <h1>Summary Results</h1>
-    {% if summary_data %}
+    <div class="container">
+        <h1>Summary Results</h1>
         <table>
             <thead>
                 <tr>
@@ -42,8 +67,13 @@
                 {% endfor %}
             </tbody>
         </table>
-    {% else %}
-        <p>No summary data available.</p>
-    {% endif %}
+
+        <h2>Anomaly Detection Summary</h2>
+        <p><strong>Total Requests:</strong> {{ anomaly_summary['Total Requests'] }}</p>
+        <p><strong>Total Anomalies:</strong> {{ anomaly_summary['Total Anomalies'] }}</p>
+        <p><strong>Anomaly Percentage (%):</strong> {{ anomaly_summary['Anomaly Percentage (%)'] }}</p>
+        <p><strong>Max Response Time (ms):</strong> {{ anomaly_summary['Max Response Time (ms)'] }}</p>
+        <p><strong>Error Codes Count:</strong> {{ anomaly_summary['Error Codes Count'] }}</p>
+    </div>
 </body>
 </html>
