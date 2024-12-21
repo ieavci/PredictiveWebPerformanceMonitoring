@@ -37,11 +37,31 @@
         h2 {
             color: #4CAF50;
         }
+        .button-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #c0392b;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Test Sonuçları Özeti</h1>
+        <div class="button-container">
+            <a href="/error_results" class="button">Failed Requests</a>
+        </div>
         <table>
             <thead>
                 <tr>

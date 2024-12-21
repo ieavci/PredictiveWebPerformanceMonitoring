@@ -78,6 +78,24 @@ def run_test():
     except Exception as e:
         return f"Error occurred: {e}", 500
 
+@app.route('/error_results')
+def error_results():
+    try:
+        # Load error results
+        error_file = os.path.join(OUTPUTS_DIR, 'error_results.csv')
+        
+        # Check if the file exists
+        if os.path.exists(error_file):
+            error_data = pd.read_csv(error_file).to_dict(orient='records')
+        else:
+            error_data = []
+
+        return render_template('error_results.html', error_data=error_data)
+    
+    except Exception as e:
+        return f"Error occurred: {e}", 500
+
+
 @app.route('/summary_results')
 def summary_results():
     try:

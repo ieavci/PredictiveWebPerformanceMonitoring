@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #2d2d2d;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        .button-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #c0392b;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+        th {
+            background-color: #3a3a3a;
+            color: #e74c3c;
+        }
+        tr:hover {
+            background-color: #3a3a3a;
+        }
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            th, td {
+                padding: 8px;
+                font-size: 14px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Error Results</h1>
+        <div class="button-container">
+            <a href="/summary_results" class="button">Test Sonuçları</a>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>TimeStamp</th>
+                    <th>Elapsed</th>
+                    <th>Label</th>
+                    <th>Response Code</th>
+                    <th>Response Message</th>
+                    <th>Thread Name</th>
+                    <th>Data Type</th>
+                    <th>Success</th>
+                    <th>Failure Message</th>
+                    <th>Bytes</th>
+                    <th>Sent Bytes</th>
+                    <th>GRP Threads</th>
+                    <th>All Threads</th>
+                    <th>URL</th>
+                    <th>Latency</th>
+                    <th>Idle Time</th>
+                    <th>Connect</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in error_data %}
+                <tr>
+                    <td>{{ row['timeStamp'] }}</td>
+                    <td>{{ row['elapsed'] }}</td>
+                    <td>{{ row['label'] }}</td>
+                    <td>{{ row['responseCode'] }}</td>
+                    <td>{{ row['responseMessage'] }}</td>
+                    <td>{{ row['threadName'] }}</td>
+                    <td>{{ row['dataType'] }}</td>
+                    <td>{{ row['success'] }}</td>
+                    <td>{{ row['failureMessage'] }}</td>
+                    <td>{{ row['bytes'] }}</td>
+                    <td>{{ row['sentBytes'] }}</td>
+                    <td>{{ row['grpThreads'] }}</td>
+                    <td>{{ row['allThreads'] }}</td>
+                    <td>{{ row['URL'] }}</td>
+                    <td>{{ row['Latency'] }}</td>
+                    <td>{{ row['IdleTime'] }}</td>
+                    <td>{{ row['Connect'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
