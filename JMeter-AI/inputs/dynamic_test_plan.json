@@ -1,77 +1,91 @@
 {
     "base_url": "www.trendyol.com",
-    "path": "/butik/liste/12/ev-yasam",
-    "users": 10,
-    "loop_count": 15,
+    "path": "/",
+    "users": 12,
+    "loop_count": 2,
     "requests": [
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 250
+                "id": 662
             }
         },
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 810
+                "id": 543
             }
         },
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 225
+                "id": 669
             }
         },
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 976
+                "id": 805
             }
         },
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 707
+                "id": 11
             }
         },
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 282
+                "id": 307
             }
         },
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 821
+                "id": 130
             }
         },
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 861
+                "id": 217
             }
         },
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 250
+                "id": 624
             }
         },
         {
-            "url": "www.trendyol.com/butik/liste/12/ev-yasam",
+            "url": "www.trendyol.com/",
             "method": "GET",
             "params": {
-                "id": 322
+                "id": 704
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 313
+            }
+        },
+        {
+            "url": "www.trendyol.com/",
+            "method": "GET",
+            "params": {
+                "id": 422
             }
         }
     ]

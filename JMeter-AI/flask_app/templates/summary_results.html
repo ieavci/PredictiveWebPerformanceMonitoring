@@ -3,34 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Results</title>
+    <title>Summary Results</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #1e1e1e;
-            color: #e0e0e0;
-            margin: 0;
-            padding: 20px;
+            color: #ffffff;
         }
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
             background-color: #2d2d2d;
-            padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        }
-        h1, h2 {
-            color: #4CAF50;
-            margin-bottom: 20px;
         }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 30px;
+            margin: 20px 0;
         }
         th, td {
-            padding: 12px;
+            padding: 10px;
             text-align: left;
             border-bottom: 1px solid #444;
         }
@@ -41,39 +34,43 @@
         tr:hover {
             background-color: #3a3a3a;
         }
-        p {
-            margin: 10px 0;
+        h2 {
+            color: #4CAF50;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Summary Results</h1>
+        <h1>Test Sonuçları Özeti</h1>
         <table>
             <thead>
                 <tr>
-                    {% for column in summary_data[0].keys() %}
-                        <th>{{ column }}</th>
-                    {% endfor %}
+                    <th>Kullanıcı Sayısı</th>
+                    <th>Döngü Sayısı</th>
+                    <th>Ortalama Yanıt Süresi (ms)</th>
+                    <th>Hata Oranı (%)</th>
+                    <th>Maksimum Yanıt Süresi (ms)</th>
+                    <th>Minimum Yanıt Süresi (ms)</th>
                 </tr>
             </thead>
             <tbody>
                 {% for row in summary_data %}
-                    <tr>
-                        {% for value in row.values() %}
-                            <td>{{ value }}</td>
-                        {% endfor %}
-                    </tr>
+                <tr>
+                    <td>{{ row['Kullanıcı Sayısı'] }}</td>
+                    <td>{{ row['Döngü Sayısı'] }}</td>
+                    <td>{{ row['Ortalama Yanıt Süresi (ms)'] }}</td>
+                    <td>{{ row['Hata Oranı (%)'] }}</td>
+                    <td>{{ row['Maksimum Yanıt Süresi (ms)'] }}</td>
+                    <td>{{ row['Minimum Yanıt Süresi (ms)'] }}</td>
+                </tr>
                 {% endfor %}
             </tbody>
         </table>
-
-        <h2>Anomaly Detection Summary</h2>
-        <p><strong>Total Requests:</strong> {{ anomaly_summary['Total Requests'] }}</p>
-        <p><strong>Total Anomalies:</strong> {{ anomaly_summary['Total Anomalies'] }}</p>
-        <p><strong>Anomaly Percentage (%):</strong> {{ anomaly_summary['Anomaly Percentage (%)'] }}</p>
-        <p><strong>Max Response Time (ms):</strong> {{ anomaly_summary['Max Response Time (ms)'] }}</p>
-        <p><strong>Error Codes Count:</strong> {{ anomaly_summary['Error Codes Count'] }}</p>
+        
+        <h2>LSTM Anomali Özeti</h2>
+        <p><strong>Toplam İstek:</strong> {{ lstm_summary['Total Requests'] }}</p>
+        <p><strong>Toplam Anomali:</strong> {{ lstm_summary['Total Anomalies'] }}</p>
+        <p><strong>Anomali Oranı (%):</strong> {{ lstm_summary['Anomaly Percentage (%)'] }}</p>
     </div>
 </body>
 </html>

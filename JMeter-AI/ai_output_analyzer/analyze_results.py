@@ -1,57 +1,48 @@
 import os
 import pandas as pd
-from ai_output_analyzer.anomaly_detector import detect_anomalies
+from flask import Flask
+
+# Flask uygulamasını oluşturun
+app = Flask(__name__)
+
+
 
 def analyze_detailed_results(file_path, output_dir, users, loop_count):
-    """
-    Perform detailed analysis on JMeter results and detect anomalies.
-    """
+    
     try:
-        # Load CSV file
+        # Load the results CSV file
         data = pd.read_csv(file_path)
-        print("CSV file successfully loaded.")
 
-        # Ensure the required columns exist
-        if 'responseCode' not in data.columns or 'elapsed' not in data.columns:
-            raise ValueError("Required columns 'responseCode' or 'elapsed' are missing in the CSV file.")
+        if 'elapsed' not in data.columns:
+            raise KeyError("Missing required column 'elapsed' in results.csv")
 
-        # Convert response codes to numeric and handle invalid values
-        data['responseCode'] = pd.to_numeric(data['responseCode'], errors='coerce')
-        data = data.dropna(subset=['responseCode'])  # Remove rows with invalid response codes
-
-        # Calculate error rate and response times
-        error_rate = (data['responseCode'] >= 500).mean() * 100
+        # Perform calculations
         avg_response_time = data['elapsed'].mean()
         max_response_time = data['elapsed'].max()
         min_response_time = data['elapsed'].min()
+        error_rate = (data['responseCode'] >= 400).mean() * 100  # Error rate in %
 
-        # Detect anomalies
-        anomalies, anomaly_summary = detect_anomalies(file_path)
-
-        # Ensure output directory exists
-        if not os.path.exists(output_dir):
-            os.makedirs(output_dir)
-
-        # Save summary results to a new CSV
+        # Prepare summary data
         summary = {
             "Kullanıcı Sayısı": [users],
-            "Döngü Sayısı (Loop Count)": [loop_count],
-            "Hata Oranı (%)": [error_rate],
+            "Döngü Sayısı": [loop_count],
             "Ortalama Yanıt Süresi (ms)": [avg_response_time],
+            "Hata Oranı (%)": [error_rate],
             "Maksimum Yanıt Süresi (ms)": [max_response_time],
             "Minimum Yanıt Süresi (ms)": [min_response_time],
-            "Anomali Sayısı": [anomaly_summary.get("Total Anomalies", 0)],
-            "Anomali Yüzdesi (%)": [anomaly_summary.get("Anomaly Percentage (%)", 0)],
-            "Maksimum Anormal Yanıt Süresi (ms)": [anomaly_summary.get("Max Response Time (ms)", None)],
-            "Hata Kodlu İstek Sayısı": [anomaly_summary.get("Error Codes Count", 0)],
         }
-        summary_df = pd.DataFrame(summary)
-        summary_df.to_csv(os.path.join(output_dir, 'summary_results.csv'), index=False)
-        print("Özet sonuçlar 'summary_results.csv' dosyasına kaydedildi.")
 
-    except FileNotFoundError:
-        print(f"Error: File not found at {file_path}. Please check the file path and try again.")
-    except ValueError as ve:
-        print(f"Error: {ve}")
+        summary_df = pd.DataFrame(summary)
+        summary_file = os.path.join(output_dir, "summary_results.csv")
+
+        if os.path.exists(summary_file):
+            existing_summary = pd.read_csv(summary_file)
+            summary_df = pd.concat([existing_summary, summary_df], ignore_index=True)
+
+        summary_df.to_csv(summary_file, index=False)
+
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        raise
+
+if __name__ == '__main__':
+    app.run(debug=True)

@@ -1,29 +1,19 @@
 import subprocess
-import sys
 import os
 
-# Proje kök dizinini belirle
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-sys.path.append(BASE_DIR)
+def run_jmeter_test(test_plan_name="dynamic_test_plan.jmx", results_output_path=None):
+    jmeter_path = "C:/Users/iavcc/Downloads/Programs/JMeter/apache-jmeter-5.6.3/bin/jmeter.bat"  # JMeter binary path
+    inputs_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'inputs')
+    outputs_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'outputs')
 
+    test_plan_path = os.path.join(inputs_dir, test_plan_name)
+    if results_output_path is None:
+        results_output_path = os.path.join(outputs_dir, 'results.csv')
 
-def run_jmeter_test(input_file, output_file):
-    # Sabit test planı dosyasının tam yolu
-    test_plan_path = os.path.abspath("C:/Users/iavcc/Documents/GitHub/PredictiveWebPerformanceMonitoring/JMeter-AI/inputs/test_plan.jmx")
-
-    # Mutlak yolları kullan
-    input_file = os.path.abspath(input_file)
-    output_file = os.path.abspath(output_file)
-
-    jmeter_command = [
-        "C:/Users/iavcc/Downloads/Programs/JMeter/apache-jmeter-5.6.3/bin/jmeter.bat",
-        "-n",
-        "-t",  # JMeter test planı
-        test_plan_path,
-        "-l",  # Test sonuçlarının kaydedileceği CSV dosyası
-        output_file,
-        "-Jinput_file=" + input_file,
+    command = [
+        jmeter_path,
+        '-n',  # Non-GUI mode
+        '-t', test_plan_path,  # Test plan file
+        '-l', results_output_path  # Output results file
     ]
-
-    # Komutu çalıştır (cwd parametresi ile çalışma dizinini ayarla)
-    subprocess.run(jmeter_command, cwd=BASE_DIR, check=True)
+    subprocess.run(command, check=True)

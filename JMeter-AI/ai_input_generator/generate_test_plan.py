@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+import os
+
+def create_test_plan(user_count, loop_count, base_url, path, ramp_time=5, output_file="dynamic_test_plan.jmx"):
+    # JMeter test plan template
+    test_plan_template = f"""<?xml version="1.0" encoding="UTF-8"?>
 <jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan">
@@ -10,20 +14,19 @@
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
-        <intProp name="ThreadGroup.num_threads">10</intProp>
-        <intProp name="ThreadGroup.ramp_time">5</intProp>
+        <intProp name="ThreadGroup.num_threads">{user_count}</intProp>
+        <intProp name="ThreadGroup.ramp_time">{ramp_time}</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller">
-          <stringProp name="LoopController.loops">${loop_count}</stringProp>
+          <stringProp name="LoopController.loops">{loop_count}</stringProp>
           <boolProp name="LoopController.continue_forever">false</boolProp>
         </elementProp>
       </ThreadGroup>
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request">
-          <stringProp name="HTTPSampler.domain">${base_url}</stringProp>
-          <stringProp name="HTTPSampler.path">${path}</stringProp>
-
+          <stringProp name="HTTPSampler.domain">{base_url}</stringProp>
+          <stringProp name="HTTPSampler.path">{path}</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -73,4 +76,10 @@
       </hashTree>
     </hashTree>
   </hashTree>
-</jmeterTestPlan>
+</jmeterTestPlan>"""
+
+    # Save to file
+    output_path = os.path.join(os.path.dirname(__file__), "../inputs", output_file)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(test_plan_template)
+    print(f"Test plan saved to {output_path}")
