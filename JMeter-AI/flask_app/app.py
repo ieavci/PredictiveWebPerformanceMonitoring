@@ -58,23 +58,16 @@ def generate_test_plan():
 @app.route('/run-test', methods=['POST'])
 def run_test():
     try:
-        base_url = request.form['base_url']
-        path = request.form['path']
-        users = int(request.form['users'])
-        loop_count = int(request.form['loop_count'])
+        results_file = os.path.join(OUTPUTS_DIR, 'results.csv')
 
-        # Generate dynamic test plan
-        test_plan_path = generate_dynamic_test_plan(base_url, path, users, loop_count)
+        # Run anomaly detection
+        lstm_anomalies, lstm_summary, plot_base64 = lstm_anomaly_detection(results_file)
 
-        # Execute JMeter test
-        results_path = os.path.join(OUTPUTS_DIR, 'results.csv')
-        run_jmeter_test(test_plan_path, results_path)
-
-        # Analyze results
-        analyze_detailed_results(results_path, OUTPUTS_DIR, users, loop_count)
+        # Save anomaly results
+        anomaly_file = os.path.join(OUTPUTS_DIR, 'anomalies.csv')
+        lstm_anomalies.to_csv(anomaly_file, index=False)
 
         return redirect(url_for('summary_results'))
-
     except Exception as e:
         return f"Error occurred: {e}", 500
 
@@ -95,24 +88,49 @@ def error_results():
     except Exception as e:
         return f"Error occurred: {e}", 500
 
+@app.route('/anomalies_results')
+def anomalie_results():
+    try:
+        # Load anomalie results
+        anomalie_file = os.path.join(OUTPUTS_DIR, 'anomalies.csv')
+        
+        # Check if the file exists
+        if os.path.exists(anomalie_file):
+            anomalie_data = pd.read_csv(anomalie_file).to_dict(orient='records')
+        else:
+            anomalie_data = []
+
+        return render_template('anomalies_results.html', anomalie_data=anomalie_data)
+    
+    except Exception as e:
+        return f"Error occurred: {e}", 500
+
 
 @app.route('/summary_results')
 def summary_results():
     try:
-        # Load summary and anomaly results
         results_file = os.path.join(OUTPUTS_DIR, 'results.csv')
         summary_file = os.path.join(OUTPUTS_DIR, 'summary_results.csv')
 
         summary_data = pd.read_csv(summary_file).to_dict(orient='records')
-        lstm_anomalies, lstm_summary = lstm_anomaly_detection(results_file)
+        lstm_anomalies, lstm_summary, plot_base64 = lstm_anomaly_detection(results_file)
+
+        # Reconstruction errors ve threshold değerini Chart.js için JSON olarak hazırlayın
+        reconstruction_errors = lstm_anomalies['reconstruction_error'].tolist()
+        threshold = lstm_summary['Threshold Used']
 
         return render_template(
             'summary_results.html',
             summary_data=summary_data,
-            lstm_summary=lstm_summary
+            lstm_summary=lstm_summary,
+            reconstruction_errors=reconstruction_errors,
+            threshold=threshold
         )
     except Exception as e:
         return f"Error occurred: {e}", 500
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

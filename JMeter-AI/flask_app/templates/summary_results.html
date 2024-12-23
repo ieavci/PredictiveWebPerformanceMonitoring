@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summary Results</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #1e1e1e;
             color: #ffffff;
         }
+
         .container {
             max-width: 900px;
             margin: 20px auto;
@@ -17,30 +20,38 @@
             background-color: #2d2d2d;
             border-radius: 8px;
         }
+
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
         }
-        th, td {
+
+        th,
+        td {
             padding: 10px;
             text-align: left;
             border-bottom: 1px solid #444;
         }
+
         th {
             background-color: #3a3a3a;
             color: #4CAF50;
         }
+
         tr:hover {
             background-color: #3a3a3a;
         }
+
         h2 {
             color: #4CAF50;
         }
+
         .button-container {
             text-align: center;
             margin-bottom: 20px;
         }
+
         .button {
             background-color: #e74c3c;
             color: white;
@@ -51,26 +62,35 @@
             text-decoration: none;
             font-size: 16px;
         }
+
         .button:hover {
             background-color: #c0392b;
         }
+
+        canvas {
+            margin-top: 20px;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <h1>Test Sonuçları Özeti</h1>
         <div class="button-container">
             <a href="/error_results" class="button">Failed Requests</a>
         </div>
+        <div class="button-container">
+            <a href="/anomalies_results" class="button">Anomalie Requests</a>
+        </div>
         <table>
             <thead>
                 <tr>
                     <th>Kullanıcı Sayısı</th>
                     <th>Döngü Sayısı</th>
-                    <th>Ortalama Yanıt Süresi (ms)</th>
+                    <th>Ortalama Yanıt Süreti (ms)</th>
                     <th>Hata Oranı (%)</th>
-                    <th>Maksimum Yanıt Süresi (ms)</th>
-                    <th>Minimum Yanıt Süresi (ms)</th>
+                    <th>Maksimum Yanıt Süreti (ms)</th>
+                    <th>Minimum Yanıt Süreti (ms)</th>
                 </tr>
             </thead>
             <tbody>
@@ -78,19 +98,84 @@
                 <tr>
                     <td>{{ row['Kullanıcı Sayısı'] }}</td>
                     <td>{{ row['Döngü Sayısı'] }}</td>
-                    <td>{{ row['Ortalama Yanıt Süresi (ms)'] }}</td>
+                    <td>{{ row['Ortalama Yanıt Süreti (ms)'] }}</td>
                     <td>{{ row['Hata Oranı (%)'] }}</td>
-                    <td>{{ row['Maksimum Yanıt Süresi (ms)'] }}</td>
-                    <td>{{ row['Minimum Yanıt Süresi (ms)'] }}</td>
+                    <td>{{ row['Maksimum Yanıt Süreti (ms)'] }}</td>
+                    <td>{{ row['Minimum Yanıt Süreti (ms)'] }}</td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
-        
-        <h2>LSTM Anomali Özeti</h2>
-        <p><strong>Toplam İstek:</strong> {{ lstm_summary['Total Requests'] }}</p>
-        <p><strong>Toplam Anomali:</strong> {{ lstm_summary['Total Anomalies'] }}</p>
-        <p><strong>Anomali Oranı (%):</strong> {{ lstm_summary['Anomaly Percentage (%)'] }}</p>
+        <div>
+            <h2>LSTM Anomali Özeti</h2>
+            <p><strong>Toplam İstek:</strong> {{ lstm_summary['Total Requests'] }}</p>
+            <p><strong>Toplam Anomali:</strong> {{ lstm_summary['Total Anomalies'] }}</p>
+            <p><strong>Anomali Oranı (%):</strong> {{ lstm_summary['Anomaly Percentage (%)'] }}</p>
+            <p><strong>Kullanılan Eşik Değeri:</strong> {{ lstm_summary['Threshold Used'] }}</p>
+
+            <h2>Reconstruction Error Grafiği</h2>
+            <canvas id="errorChart" width="800" height="400"></canvas>
+        </div>
     </div>
+
+    <script>
+        const reconstructionErrors = {{ reconstruction_errors | safe }};
+        const threshold = {{ lstm_summary['Threshold Used'] }};
+
+        const ctx = document.getElementById('errorChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: Array.from({ length: reconstructionErrors.length }, (_, i) => i + 1),
+                datasets: [
+                    {
+                        label: 'Reconstruction Error',
+                        data: reconstructionErrors,
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        fill: true,
+                    },
+                    {
+                        label: 'Threshold',
+                        data: Array(reconstructionErrors.length).fill(threshold),
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderDash: [10, 5],
+                        fill: false,
+                    },
+                ],
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                },
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Samples',
+                            color: '#ffffff',
+                        },
+                        ticks: {
+                            color: '#ffffff',
+                        },
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Error',
+                            color: '#ffffff',
+                        },
+                        ticks: {
+                            color: '#ffffff',
+                        },
+                    },
+                },
+            },
+        });
+    </script>
 </body>
+
 </html>

@@ -2807,3 +2807,363 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1734782003216,76,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,285,125,1,1,http://www.theuselessweb.com/oe,76,0,0
 1734782003292,68,HTTP Request-1,301,Moved Permanently,Thread Group 1-12,text,true,,322,125,1,1,https://www.theuselessweb.com/oe,68,0,0
 1734782003360,71,HTTP Request-2,404,Not Found,Thread Group 1-12,text,false,,3795,121,1,1,https://theuselessweb.com/oe,71,0,0
+1734808323180,1032,HTTP Request,200,OK,Thread Group 1-3,text,true,,21220,244,5,5,https://www.ardacanuysal.com/,182,0,73
+1734808322522,1694,HTTP Request,200,OK,Thread Group 1-1,text,true,,21220,244,5,5,https://www.ardacanuysal.com/,437,0,320
+1734808323180,182,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,5,5,http://www.ardacanuysal.com/,182,0,73
+1734808323362,850,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20262,122,5,5,https://www.ardacanuysal.com/,721,0,602
+1734808322522,444,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,5,5,http://www.ardacanuysal.com/,437,0,320
+1734808322761,1484,HTTP Request,200,OK,Thread Group 1-2,text,true,,21220,244,5,5,https://www.ardacanuysal.com/,199,0,82
+1734808322969,1247,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20262,122,5,5,https://www.ardacanuysal.com/,1112,0,995
+1734808322761,206,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,5,5,http://www.ardacanuysal.com/,199,0,82
+1734808322969,1276,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20262,122,5,5,https://www.ardacanuysal.com/,1169,0,995
+1734808323590,1012,HTTP Request,200,OK,Thread Group 1-4,text,true,,21220,244,6,6,https://www.ardacanuysal.com/,342,0,264
+1734808323590,342,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,6,6,http://www.ardacanuysal.com/,342,0,264
+1734808323933,669,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20262,122,6,6,https://www.ardacanuysal.com/,390,0,293
+1734808324257,382,HTTP Request,200,OK,Thread Group 1-3,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,101,0,0
+1734808324257,101,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,6,6,http://www.ardacanuysal.com/,101,0,0
+1734808324359,280,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,266,0,0
+1734808324252,528,HTTP Request,200,OK,Thread Group 1-2,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,106,0,0
+1734808324252,528,HTTP Request,200,OK,Thread Group 1-1,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,107,0,0
+1734808324252,106,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,6,6,http://www.ardacanuysal.com/,106,0,0
+1734808324252,107,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,6,6,http://www.ardacanuysal.com/,107,0,0
+1734808324359,421,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,419,0,0
+1734808324359,421,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,419,0,0
+1734808324639,312,HTTP Request,200,OK,Thread Group 1-3,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,142,0,0
+1734808324639,142,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,7,7,http://www.ardacanuysal.com/,142,0,0
+1734808324781,170,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,120,0,0
+1734808324602,794,HTTP Request,200,OK,Thread Group 1-4,text,true,,21042,244,8,8,https://www.ardacanuysal.com/,178,0,0
+1734808324602,179,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,8,8,http://www.ardacanuysal.com/,178,0,0
+1734808324781,615,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20084,122,8,8,https://www.ardacanuysal.com/,614,0,0
+1734808324005,1394,HTTP Request,200,OK,Thread Group 1-5,text,true,,21220,244,8,8,https://www.ardacanuysal.com/,255,0,164
+1734808324005,255,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,8,8,http://www.ardacanuysal.com/,255,0,164
+1734808324261,1138,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20262,122,8,8,https://www.ardacanuysal.com/,746,0,537
+1734808324781,620,HTTP Request,200,OK,Thread Group 1-2,text,true,,21042,244,8,8,https://www.ardacanuysal.com/,244,0,0
+1734808324781,244,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,8,8,http://www.ardacanuysal.com/,244,0,0
+1734808325025,376,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20084,122,8,8,https://www.ardacanuysal.com/,374,0,0
+1734808324951,982,HTTP Request,200,OK,Thread Group 1-3,text,true,,21042,244,9,9,https://www.ardacanuysal.com/,448,0,0
+1734808324951,448,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,9,9,http://www.ardacanuysal.com/,448,0,0
+1734808325399,534,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20084,122,9,9,https://www.ardacanuysal.com/,299,0,0
+1734808324781,1152,HTTP Request,200,OK,Thread Group 1-1,text,true,,21042,244,9,9,https://www.ardacanuysal.com/,614,0,0
+1734808324781,615,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,9,9,http://www.ardacanuysal.com/,614,0,0
+1734808325396,537,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20084,122,9,9,https://www.ardacanuysal.com/,290,0,0
+1734808325400,550,HTTP Request,200,OK,Thread Group 1-5,text,true,,21042,244,9,9,https://www.ardacanuysal.com/,97,0,0
+1734808325400,97,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,9,9,http://www.ardacanuysal.com/,97,0,0
+1734808325497,453,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20084,122,9,9,https://www.ardacanuysal.com/,440,0,0
+1734808325401,762,HTTP Request,200,OK,Thread Group 1-2,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,532,0,0
+1734808325401,533,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,10,10,http://www.ardacanuysal.com/,532,0,0
+1734808325934,229,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,109,0,0
+1734808325398,878,HTTP Request,200,OK,Thread Group 1-4,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,537,0,0
+1734808325398,537,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,10,10,http://www.ardacanuysal.com/,537,0,0
+1734808325935,341,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,228,0,0
+1734808324423,2269,HTTP Request,200,OK,Thread Group 1-6,text,true,,21220,244,11,11,https://www.ardacanuysal.com/,528,0,356
+1734808325936,756,HTTP Request,200,OK,Thread Group 1-3,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,228,0,0
+1734808324423,528,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,11,11,http://www.ardacanuysal.com/,528,0,356
+1734808324952,1740,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20262,122,11,11,https://www.ardacanuysal.com/,1328,0,1007
+1734808325936,228,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,11,11,http://www.ardacanuysal.com/,228,0,0
+1734808326165,527,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,336,0,0
+1734808325938,756,HTTP Request,200,OK,Thread Group 1-1,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,223,0,0
+1734808325938,223,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,11,11,http://www.ardacanuysal.com/,223,0,0
+1734808326163,531,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,393,0,0
+1734808325951,751,HTTP Request,200,OK,Thread Group 1-5,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,324,0,0
+1734808325951,325,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,11,11,http://www.ardacanuysal.com/,324,0,0
+1734808326276,426,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,426,0,0
+1734808326165,677,HTTP Request,200,OK,Thread Group 1-2,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,530,0,0
+1734808326165,530,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,11,11,http://www.ardacanuysal.com/,530,0,0
+1734808326696,146,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,111,0,0
+1734808326278,658,HTTP Request,200,OK,Thread Group 1-4,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,416,0,0
+1734808326278,416,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,12,12,http://www.ardacanuysal.com/,416,0,0
+1734808326695,241,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,240,0,0
+1734808326693,400,HTTP Request,200,OK,Thread Group 1-3,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,111,0,0
+1734808326693,111,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,12,12,http://www.ardacanuysal.com/,111,0,0
+1734808326804,289,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,251,0,0
+1734808326703,600,HTTP Request,200,OK,Thread Group 1-5,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,100,0,0
+1734808326703,100,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,12,12,http://www.ardacanuysal.com/,100,0,0
+1734808326803,500,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,292,0,0
+1734808326693,617,HTTP Request,200,OK,Thread Group 1-6,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,110,0,0
+1734808326693,110,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,12,12,http://www.ardacanuysal.com/,110,0,0
+1734808326803,507,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,501,0,0
+1734808326694,624,HTTP Request,200,OK,Thread Group 1-1,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,242,0,0
+1734808326694,242,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,12,12,http://www.ardacanuysal.com/,242,0,0
+1734808326936,382,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,377,0,0
+1734808325255,2080,HTTP Request,200,OK,Thread Group 1-8,text,true,,21220,244,12,12,https://www.ardacanuysal.com/,683,0,172
+1734808325255,683,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,12,12,http://www.ardacanuysal.com/,683,0,172
+1734808325941,1394,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20262,122,12,12,https://www.ardacanuysal.com/,996,0,773
+1734808324838,2502,HTTP Request,200,OK,Thread Group 1-7,text,true,,21220,244,12,12,https://www.ardacanuysal.com/,1102,0,557
+1734808324838,1102,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,12,12,http://www.ardacanuysal.com/,1102,0,557
+1734808325942,1398,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20262,122,12,12,https://www.ardacanuysal.com/,1023,0,789
+1734808326843,596,HTTP Request,200,OK,Thread Group 1-2,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,468,0,0
+1734808326843,468,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,12,12,http://www.ardacanuysal.com/,468,0,0
+1734808327311,128,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,126,0,0
+1734808326936,555,HTTP Request,200,OK,Thread Group 1-4,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,380,0,0
+1734808326936,380,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,12,12,http://www.ardacanuysal.com/,380,0,0
+1734808327316,175,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,124,0,0
+1734808327094,469,HTTP Request,200,OK,Thread Group 1-3,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,242,0,0
+1734808327094,242,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,12,12,http://www.ardacanuysal.com/,242,0,0
+1734808327336,227,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,220,0,0
+1734808325671,1902,HTTP Request,200,OK,Thread Group 1-9,text,true,,21220,244,12,12,https://www.ardacanuysal.com/,606,0,278
+1734808325671,606,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,12,12,http://www.ardacanuysal.com/,606,0,278
+1734808326279,1294,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20262,122,12,12,https://www.ardacanuysal.com/,1061,0,665
+1734808327306,341,HTTP Request,200,OK,Thread Group 1-5,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,91,0,0
+1734808327306,91,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,12,12,http://www.ardacanuysal.com/,91,0,0
+1734808327397,250,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,248,0,0
+1734808327310,388,HTTP Request,200,OK,Thread Group 1-6,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,127,0,0
+1734808327310,127,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,12,12,http://www.ardacanuysal.com/,127,0,0
+1734808327437,261,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,210,0,0
+1734808326092,1621,HTTP Request,200,OK,Thread Group 1-10,text,true,,21220,244,12,12,https://www.ardacanuysal.com/,615,0,188
+1734808326092,615,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,12,12,http://www.ardacanuysal.com/,615,0,188
+1734808326708,1005,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20262,122,12,12,https://www.ardacanuysal.com/,785,0,613
+1734808327336,562,HTTP Request,200,OK,Thread Group 1-8,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,213,0,0
+1734808327336,213,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,12,12,http://www.ardacanuysal.com/,213,0,0
+1734808327548,350,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,166,0,0
+1734808327318,609,HTTP Request,200,OK,Thread Group 1-1,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,231,0,0
+1734808327318,231,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,12,12,http://www.ardacanuysal.com/,231,0,0
+1734808327548,379,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,173,0,0
+1734808327341,609,HTTP Request,200,OK,Thread Group 1-7,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,232,0,0
+1734808327341,232,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,12,12,http://www.ardacanuysal.com/,232,0,0
+1734808327573,377,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,355,0,0
+1734808327439,535,HTTP Request,200,OK,Thread Group 1-2,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,208,0,0
+1734808327439,208,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,12,12,http://www.ardacanuysal.com/,208,0,0
+1734808327647,327,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,309,0,0
+1734808327491,488,HTTP Request,200,OK,Thread Group 1-4,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,221,0,0
+1734808327491,221,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,12,12,http://www.ardacanuysal.com/,221,0,0
+1734808327712,267,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,267,0,0
+1734808327563,519,HTTP Request,200,OK,Thread Group 1-3,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,366,0,0
+1734808327563,366,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,12,12,http://www.ardacanuysal.com/,366,0,0
+1734808327930,152,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,134,0,0
+1734808327573,515,HTTP Request,200,OK,Thread Group 1-9,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,355,0,0
+1734808327573,355,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,12,12,http://www.ardacanuysal.com/,355,0,0
+1734808327928,160,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,154,0,0
+1734808326506,1583,HTTP Request,200,OK,Thread Group 1-11,text,true,,21220,244,12,12,https://www.ardacanuysal.com/,494,0,218
+1734808326506,494,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,12,12,http://www.ardacanuysal.com/,494,0,218
+1734808327001,1088,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20262,122,12,12,https://www.ardacanuysal.com/,951,0,585
+1734808327712,596,HTTP Request,200,OK,Thread Group 1-10,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,267,0,0
+1734808327712,267,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,12,12,http://www.ardacanuysal.com/,267,0,0
+1734808327979,329,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,209,0,0
+1734808327646,684,HTTP Request,200,OK,Thread Group 1-5,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,328,0,0
+1734808327646,328,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,12,12,http://www.ardacanuysal.com/,328,0,0
+1734808327974,356,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,335,0,0
+1734808327698,722,HTTP Request,200,OK,Thread Group 1-6,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,277,0,0
+1734808327698,277,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,12,12,http://www.ardacanuysal.com/,277,0,0
+1734808327975,445,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,444,0,0
+1734808327899,536,HTTP Request,200,OK,Thread Group 1-8,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,82,0,0
+1734808327899,82,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,12,12,http://www.ardacanuysal.com/,82,0,0
+1734808327981,454,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,454,0,0
+1734808326922,1515,HTTP Request,200,OK,Thread Group 1-12,text,true,,21220,244,12,12,https://www.ardacanuysal.com/,475,0,389
+1734808326922,475,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,12,12,http://www.ardacanuysal.com/,475,0,389
+1734808327398,1039,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20262,122,12,12,https://www.ardacanuysal.com/,693,0,563
+1734808327928,539,HTTP Request,200,OK,Thread Group 1-1,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,134,0,0
+1734808327928,134,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,12,12,http://www.ardacanuysal.com/,134,0,0
+1734808328062,405,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,403,0,0
+1734808327950,543,HTTP Request,200,OK,Thread Group 1-7,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,139,0,0
+1734808327950,139,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,12,12,http://www.ardacanuysal.com/,139,0,0
+1734808328089,404,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,385,0,0
+1734808327975,568,HTTP Request,200,OK,Thread Group 1-2,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,333,0,0
+1734808327975,334,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,12,12,http://www.ardacanuysal.com/,333,0,0
+1734808328312,231,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,230,0,0
+1734808328309,668,HTTP Request,200,OK,Thread Group 1-10,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,287,0,0
+1734808328309,288,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,12,12,http://www.ardacanuysal.com/,287,0,0
+1734808328597,380,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,332,0,0
+1734808328083,895,HTTP Request,200,OK,Thread Group 1-3,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,383,0,0
+1734808328083,383,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,12,12,http://www.ardacanuysal.com/,383,0,0
+1734808328466,512,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,415,0,0
+1734808327980,1120,HTTP Request,200,OK,Thread Group 1-4,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,439,0,0
+1734808327980,439,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,12,12,http://www.ardacanuysal.com/,439,0,0
+1734808328419,681,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,517,0,0
+1734808328089,1107,HTTP Request,200,OK,Thread Group 1-9,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,377,0,0
+1734808328089,377,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,12,12,http://www.ardacanuysal.com/,377,0,0
+1734808328466,730,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,726,0,0
+1734808328089,1123,HTTP Request,200,OK,Thread Group 1-11,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,379,0,0
+1734808328089,379,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,12,12,http://www.ardacanuysal.com/,379,0,0
+1734808328468,744,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,634,0,0
+1734808328421,904,HTTP Request,200,OK,Thread Group 1-6,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,490,0,0
+1734808328421,490,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,12,12,http://www.ardacanuysal.com/,490,0,0
+1734808328911,414,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,347,0,0
+1734808328545,816,HTTP Request,200,OK,Thread Group 1-2,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,555,0,0
+1734808328545,555,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,12,12,http://www.ardacanuysal.com/,555,0,0
+1734808329100,261,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,226,0,0
+1734808328467,895,HTTP Request,200,OK,Thread Group 1-1,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,634,0,0
+1734808328467,634,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,12,12,http://www.ardacanuysal.com/,634,0,0
+1734808329101,261,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,230,0,0
+1734808328332,1042,HTTP Request,200,OK,Thread Group 1-5,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,880,0,0
+1734808328332,880,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,12,12,http://www.ardacanuysal.com/,880,0,0
+1734808329213,161,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,149,0,0
+1734808328436,938,HTTP Request,200,OK,Thread Group 1-8,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,664,0,0
+1734808328436,664,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,12,12,http://www.ardacanuysal.com/,664,0,0
+1734808329100,274,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,269,0,0
+1734808328494,910,HTTP Request,200,OK,Thread Group 1-7,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,607,0,0
+1734808328494,607,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,12,12,http://www.ardacanuysal.com/,607,0,0
+1734808329101,303,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,274,0,0
+1734808328437,997,HTTP Request,200,OK,Thread Group 1-12,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,390,0,0
+1734808328437,390,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,12,12,http://www.ardacanuysal.com/,390,0,0
+1734808328827,607,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,386,0,0
+1734808328979,704,HTTP Request,200,OK,Thread Group 1-3,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,395,0,0
+1734808328979,395,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,958,122,12,12,http://www.ardacanuysal.com/,395,0,0
+1734808328978,705,HTTP Request,200,OK,Thread Group 1-10,text,true,,21042,244,12,12,https://www.ardacanuysal.com/,397,0,0
+1734808329375,308,HTTP Request-1,200,OK,Thread Group 1-3,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,211,0,0
+1734808328978,397,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,12,12,http://www.ardacanuysal.com/,397,0,0
+1734808329375,308,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20084,122,12,12,https://www.ardacanuysal.com/,305,0,0
+1734808329101,588,HTTP Request,200,OK,Thread Group 1-4,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,273,0,0
+1734808329101,273,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,11,11,http://www.ardacanuysal.com/,273,0,0
+1734808329375,314,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,308,0,0
+1734808329213,484,HTTP Request,200,OK,Thread Group 1-11,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,164,0,0
+1734808329213,164,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,11,11,http://www.ardacanuysal.com/,164,0,0
+1734808329377,320,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,313,0,0
+1734808329196,502,HTTP Request,200,OK,Thread Group 1-9,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,179,0,0
+1734808329196,179,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,11,11,http://www.ardacanuysal.com/,179,0,0
+1734808329375,323,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,322,0,0
+1734808329375,340,HTTP Request,200,OK,Thread Group 1-5,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,190,0,0
+1734808329375,190,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,11,11,http://www.ardacanuysal.com/,190,0,0
+1734808329565,150,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,134,0,0
+1734808329326,705,HTTP Request,200,OK,Thread Group 1-6,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,239,0,0
+1734808329326,239,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,11,11,http://www.ardacanuysal.com/,239,0,0
+1734808329565,466,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,151,0,0
+1734808329361,714,HTTP Request,200,OK,Thread Group 1-2,text,true,,21042,244,11,11,https://www.ardacanuysal.com/,317,0,0
+1734808329361,317,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,958,122,11,11,http://www.ardacanuysal.com/,317,0,0
+1734808329678,397,HTTP Request-1,200,OK,Thread Group 1-2,text,true,,20084,122,11,11,https://www.ardacanuysal.com/,356,0,0
+1734808329363,822,HTTP Request,200,OK,Thread Group 1-1,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,325,0,0
+1734808329375,810,HTTP Request,200,OK,Thread Group 1-8,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,308,0,0
+1734808329363,325,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,10,10,http://www.ardacanuysal.com/,325,0,0
+1734808329375,308,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,10,10,http://www.ardacanuysal.com/,308,0,0
+1734808329688,497,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,368,0,0
+1734808329683,502,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,484,0,0
+1734808329434,775,HTTP Request,200,OK,Thread Group 1-12,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,148,0,0
+1734808329434,148,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,10,10,http://www.ardacanuysal.com/,148,0,0
+1734808329583,626,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,602,0,0
+1734808329404,813,HTTP Request,200,OK,Thread Group 1-7,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,287,0,0
+1734808329404,287,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,10,10,http://www.ardacanuysal.com/,287,0,0
+1734808329691,526,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,519,0,0
+1734808329716,606,HTTP Request,200,OK,Thread Group 1-5,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,315,0,0
+1734808329716,315,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,10,10,http://www.ardacanuysal.com/,315,0,0
+1734808330031,291,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,190,0,0
+1734808329683,771,HTTP Request,200,OK,Thread Group 1-10,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,506,0,0
+1734808329683,506,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,10,10,http://www.ardacanuysal.com/,506,0,0
+1734808330190,264,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,221,0,0
+1734808329689,782,HTTP Request,200,OK,Thread Group 1-4,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,499,0,0
+1734808329689,500,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,10,10,http://www.ardacanuysal.com/,499,0,0
+1734808330189,282,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,264,0,0
+1734808329698,812,HTTP Request,200,OK,Thread Group 1-9,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,511,0,0
+1734808329698,511,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,10,10,http://www.ardacanuysal.com/,511,0,0
+1734808330210,300,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,266,0,0
+1734808330032,481,HTTP Request,200,OK,Thread Group 1-6,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,185,0,0
+1734808330032,185,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,10,10,http://www.ardacanuysal.com/,185,0,0
+1734808330217,296,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,296,0,0
+1734808329698,821,HTTP Request,200,OK,Thread Group 1-11,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,491,0,0
+1734808329698,491,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,10,10,http://www.ardacanuysal.com/,491,0,0
+1734808330190,329,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,328,0,0
+1734808330186,406,HTTP Request,200,OK,Thread Group 1-1,text,true,,21042,244,10,10,https://www.ardacanuysal.com/,265,0,0
+1734808330186,265,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,958,122,10,10,http://www.ardacanuysal.com/,265,0,0
+1734808330452,140,HTTP Request-1,200,OK,Thread Group 1-1,text,true,,20084,122,10,10,https://www.ardacanuysal.com/,139,0,0
+1734808330210,403,HTTP Request,200,OK,Thread Group 1-12,text,true,,21042,244,9,9,https://www.ardacanuysal.com/,240,0,0
+1734808330210,240,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,9,9,http://www.ardacanuysal.com/,240,0,0
+1734808330450,163,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20084,122,9,9,https://www.ardacanuysal.com/,162,0,0
+1734808330186,463,HTTP Request,200,OK,Thread Group 1-8,text,true,,21042,244,9,9,https://www.ardacanuysal.com/,265,0,0
+1734808330186,265,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,9,9,http://www.ardacanuysal.com/,265,0,0
+1734808330451,198,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20084,122,9,9,https://www.ardacanuysal.com/,165,0,0
+1734808330323,385,HTTP Request,200,OK,Thread Group 1-5,text,true,,21042,244,9,9,https://www.ardacanuysal.com/,129,0,0
+1734808330323,129,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,958,122,9,9,http://www.ardacanuysal.com/,129,0,0
+1734808330452,256,HTTP Request-1,200,OK,Thread Group 1-5,text,true,,20084,122,9,9,https://www.ardacanuysal.com/,198,0,0
+1734808330217,496,HTTP Request,200,OK,Thread Group 1-7,text,true,,21042,244,8,8,https://www.ardacanuysal.com/,301,0,0
+1734808330217,301,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,8,8,http://www.ardacanuysal.com/,301,0,0
+1734808330519,194,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20084,122,8,8,https://www.ardacanuysal.com/,191,0,0
+1734808330455,379,HTTP Request,200,OK,Thread Group 1-10,text,true,,21042,244,8,8,https://www.ardacanuysal.com/,157,0,0
+1734808330455,157,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,8,8,http://www.ardacanuysal.com/,157,0,0
+1734808330613,221,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20084,122,8,8,https://www.ardacanuysal.com/,221,0,0
+1734808330471,370,HTTP Request,200,OK,Thread Group 1-4,text,true,,21042,244,8,8,https://www.ardacanuysal.com/,141,0,0
+1734808330471,141,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,958,122,8,8,http://www.ardacanuysal.com/,141,0,0
+1734808330613,228,HTTP Request-1,200,OK,Thread Group 1-4,text,true,,20084,122,8,8,https://www.ardacanuysal.com/,228,0,0
+1734808330514,348,HTTP Request,200,OK,Thread Group 1-6,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,193,0,0
+1734808330514,193,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,7,7,http://www.ardacanuysal.com/,193,0,0
+1734808330707,155,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,134,0,0
+1734808330615,295,HTTP Request,200,OK,Thread Group 1-12,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,111,0,0
+1734808330615,111,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,7,7,http://www.ardacanuysal.com/,111,0,0
+1734808330727,183,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,136,0,0
+1734808330511,484,HTTP Request,200,OK,Thread Group 1-9,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,198,0,0
+1734808330511,199,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,7,7,http://www.ardacanuysal.com/,198,0,0
+1734808330711,284,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,199,0,0
+1734808330519,499,HTTP Request,200,OK,Thread Group 1-11,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,190,0,0
+1734808330519,190,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,7,7,http://www.ardacanuysal.com/,190,0,0
+1734808330709,309,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,306,0,0
+1734808330650,547,HTTP Request,200,OK,Thread Group 1-8,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,191,0,0
+1734808330650,191,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,7,7,http://www.ardacanuysal.com/,191,0,0
+1734808330841,356,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,290,0,0
+1734808330715,488,HTTP Request,200,OK,Thread Group 1-7,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,194,0,0
+1734808330715,194,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,7,7,http://www.ardacanuysal.com/,194,0,0
+1734808330910,293,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,292,0,0
+1734808330835,445,HTTP Request,200,OK,Thread Group 1-10,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,362,0,0
+1734808330835,363,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,7,7,http://www.ardacanuysal.com/,362,0,0
+1734808331198,82,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,65,0,0
+1734808330863,489,HTTP Request,200,OK,Thread Group 1-6,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,335,0,0
+1734808330863,335,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,7,7,http://www.ardacanuysal.com/,335,0,0
+1734808331198,154,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,153,0,0
+1734808330911,444,HTTP Request,200,OK,Thread Group 1-12,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,287,0,0
+1734808330911,287,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,7,7,http://www.ardacanuysal.com/,287,0,0
+1734808331199,156,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,156,0,0
+1734808330996,397,HTTP Request,200,OK,Thread Group 1-9,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,202,0,0
+1734808330996,202,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,7,7,http://www.ardacanuysal.com/,202,0,0
+1734808331198,195,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,195,0,0
+1734808331018,421,HTTP Request,200,OK,Thread Group 1-11,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,243,0,0
+1734808331018,243,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,7,7,http://www.ardacanuysal.com/,243,0,0
+1734808331261,178,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,149,0,0
+1734808331198,278,HTTP Request,200,OK,Thread Group 1-8,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,157,0,0
+1734808331198,157,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,7,7,http://www.ardacanuysal.com/,157,0,0
+1734808331355,121,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,98,0,0
+1734808331281,287,HTTP Request,200,OK,Thread Group 1-10,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,158,0,0
+1734808331281,158,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,7,7,http://www.ardacanuysal.com/,158,0,0
+1734808331439,129,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,117,0,0
+1734808331353,281,HTTP Request,200,OK,Thread Group 1-6,text,true,,21042,244,7,7,https://www.ardacanuysal.com/,114,0,0
+1734808331353,114,HTTP Request-0,301,Moved Permanently,Thread Group 1-6,text,true,,958,122,7,7,http://www.ardacanuysal.com/,114,0,0
+1734808331467,167,HTTP Request-1,200,OK,Thread Group 1-6,text,true,,20084,122,7,7,https://www.ardacanuysal.com/,144,0,0
+1734808331393,281,HTTP Request,200,OK,Thread Group 1-9,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,83,0,0
+1734808331393,83,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,6,6,http://www.ardacanuysal.com/,83,0,0
+1734808331477,197,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,193,0,0
+1734808331356,325,HTTP Request,200,OK,Thread Group 1-12,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,84,0,0
+1734808331356,84,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,6,6,http://www.ardacanuysal.com/,84,0,0
+1734808331441,240,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,240,0,0
+1734808331439,274,HTTP Request,200,OK,Thread Group 1-11,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,160,0,0
+1734808331439,160,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,6,6,http://www.ardacanuysal.com/,160,0,0
+1734808331600,113,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,82,0,0
+1734808331477,295,HTTP Request,200,OK,Thread Group 1-8,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,155,0,0
+1734808331477,155,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,6,6,http://www.ardacanuysal.com/,155,0,0
+1734808331632,140,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,139,0,0
+1734808331569,226,HTTP Request,200,OK,Thread Group 1-10,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,110,0,0
+1734808331569,110,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,6,6,http://www.ardacanuysal.com/,110,0,0
+1734808331679,116,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,113,0,0
+1734808331675,295,HTTP Request,200,OK,Thread Group 1-9,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,120,0,0
+1734808331675,120,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,6,6,http://www.ardacanuysal.com/,120,0,0
+1734808331795,175,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,134,0,0
+1734808331682,296,HTTP Request,200,OK,Thread Group 1-12,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,90,0,0
+1734808331682,90,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,6,6,http://www.ardacanuysal.com/,90,0,0
+1734808331772,206,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,113,0,0
+1734808331773,234,HTTP Request,200,OK,Thread Group 1-8,text,true,,21042,244,6,6,https://www.ardacanuysal.com/,106,0,0
+1734808331773,106,HTTP Request-0,301,Moved Permanently,Thread Group 1-8,text,true,,958,122,6,6,http://www.ardacanuysal.com/,106,0,0
+1734808331880,127,HTTP Request-1,200,OK,Thread Group 1-8,text,true,,20084,122,6,6,https://www.ardacanuysal.com/,120,0,0
+1734808331714,364,HTTP Request,200,OK,Thread Group 1-11,text,true,,21042,244,5,5,https://www.ardacanuysal.com/,164,0,0
+1734808331714,164,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,5,5,http://www.ardacanuysal.com/,164,0,0
+1734808331878,200,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20084,122,5,5,https://www.ardacanuysal.com/,153,0,0
+1734808331796,321,HTTP Request,200,OK,Thread Group 1-10,text,true,,21042,244,5,5,https://www.ardacanuysal.com/,173,0,0
+1734808331796,173,HTTP Request-0,301,Moved Permanently,Thread Group 1-10,text,true,,958,122,5,5,http://www.ardacanuysal.com/,173,0,0
+1734808331970,147,HTTP Request-1,200,OK,Thread Group 1-10,text,true,,20084,122,5,5,https://www.ardacanuysal.com/,118,0,0
+1734808331979,260,HTTP Request,200,OK,Thread Group 1-12,text,true,,21042,244,4,4,https://www.ardacanuysal.com/,99,0,0
+1734808331979,99,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,4,4,http://www.ardacanuysal.com/,99,0,0
+1734808332078,161,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20084,122,4,4,https://www.ardacanuysal.com/,132,0,0
+1734808331971,310,HTTP Request,200,OK,Thread Group 1-9,text,true,,21042,244,4,4,https://www.ardacanuysal.com/,208,0,0
+1734808331971,208,HTTP Request-0,301,Moved Permanently,Thread Group 1-9,text,true,,958,122,4,4,http://www.ardacanuysal.com/,208,0,0
+1734808332179,102,HTTP Request-1,200,OK,Thread Group 1-9,text,true,,20084,122,4,4,https://www.ardacanuysal.com/,89,0,0
+1734808332078,233,HTTP Request,200,OK,Thread Group 1-11,text,true,,21042,244,3,3,https://www.ardacanuysal.com/,101,0,0
+1734808332078,101,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,3,3,http://www.ardacanuysal.com/,101,0,0
+1734808332179,132,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20084,122,3,3,https://www.ardacanuysal.com/,122,0,0
+1734808331203,1171,HTTP Request,200,OK,Thread Group 1-7,text,true,,21042,244,3,3,https://www.ardacanuysal.com/,190,0,0
+1734808331203,190,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,3,3,http://www.ardacanuysal.com/,190,0,0
+1734808331393,981,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20084,122,3,3,https://www.ardacanuysal.com/,95,0,0
+1734808332240,197,HTTP Request,200,OK,Thread Group 1-12,text,true,,21042,244,3,3,https://www.ardacanuysal.com/,71,0,0
+1734808332240,71,HTTP Request-0,301,Moved Permanently,Thread Group 1-12,text,true,,958,122,3,3,http://www.ardacanuysal.com/,71,0,0
+1734808332312,125,HTTP Request-1,200,OK,Thread Group 1-12,text,true,,20084,122,3,3,https://www.ardacanuysal.com/,76,0,0
+1734808332312,163,HTTP Request,200,OK,Thread Group 1-11,text,true,,21042,244,2,2,https://www.ardacanuysal.com/,78,0,0
+1734808332312,78,HTTP Request-0,301,Moved Permanently,Thread Group 1-11,text,true,,958,122,2,2,http://www.ardacanuysal.com/,78,0,0
+1734808332390,85,HTTP Request-1,200,OK,Thread Group 1-11,text,true,,20084,122,2,2,https://www.ardacanuysal.com/,64,0,0
+1734808332376,481,HTTP Request,200,OK,Thread Group 1-7,text,true,,21042,244,1,1,https://www.ardacanuysal.com/,68,0,0
+1734808332376,68,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,1,1,http://www.ardacanuysal.com/,68,0,0
+1734808332445,412,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20084,122,1,1,https://www.ardacanuysal.com/,74,0,0
+1734808332857,399,HTTP Request,200,OK,Thread Group 1-7,text,true,,21042,244,1,1,https://www.ardacanuysal.com/,85,0,0
+1734808332857,85,HTTP Request-0,301,Moved Permanently,Thread Group 1-7,text,true,,958,122,1,1,http://www.ardacanuysal.com/,85,0,0
+1734808332942,314,HTTP Request-1,200,OK,Thread Group 1-7,text,true,,20084,122,1,1,https://www.ardacanuysal.com/,233,0,0

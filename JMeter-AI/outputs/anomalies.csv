@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect,reconstruction_error,is_anomaly
+1734808322522,1694,HTTP Request,200,OK,Thread Group 1-1,text,True,,21220,244,5,5,https://www.ardacanuysal.com/,437,0,320,0.34925252238860804,True
+1734808322761,1484,HTTP Request,200,OK,Thread Group 1-2,text,True,,21220,244,5,5,https://www.ardacanuysal.com/,199,0,82,0.17128493376351484,True
+1734808324005,1394,HTTP Request,200,OK,Thread Group 1-5,text,True,,21220,244,8,8,https://www.ardacanuysal.com/,255,0,164,0.19703789300204905,True
+1734808324423,2269,HTTP Request,200,OK,Thread Group 1-6,text,True,,21220,244,11,11,https://www.ardacanuysal.com/,528,0,356,0.5733159916235206,True
+1734808324952,1740,HTTP Request-1,200,OK,Thread Group 1-6,text,True,,20262,122,11,11,https://www.ardacanuysal.com/,1328,0,1007,0.20228823185329334,True
+1734808325255,2080,HTTP Request,200,OK,Thread Group 1-8,text,True,,21220,244,12,12,https://www.ardacanuysal.com/,683,0,172,0.5148378359688055,True
+1734808324838,2502,HTTP Request,200,OK,Thread Group 1-7,text,True,,21220,244,12,12,https://www.ardacanuysal.com/,1102,0,557,0.5347540917065351,True
+1734808325671,1902,HTTP Request,200,OK,Thread Group 1-9,text,True,,21220,244,12,12,https://www.ardacanuysal.com/,606,0,278,0.44413883883032856,True
+1734808326092,1621,HTTP Request,200,OK,Thread Group 1-10,text,True,,21220,244,12,12,https://www.ardacanuysal.com/,615,0,188,0.3393844173342987,True
+1734808326506,1583,HTTP Request,200,OK,Thread Group 1-11,text,True,,21220,244,12,12,https://www.ardacanuysal.com/,494,0,218,0.29139768764667395,True
+1734808326922,1515,HTTP Request,200,OK,Thread Group 1-12,text,True,,21220,244,12,12,https://www.ardacanuysal.com/,475,0,389,0.2413985809871961,True
+1734808331203,1171,HTTP Request,200,OK,Thread Group 1-7,text,True,,21042,244,3,3,https://www.ardacanuysal.com/,190,0,0,0.18567013340394176,True
