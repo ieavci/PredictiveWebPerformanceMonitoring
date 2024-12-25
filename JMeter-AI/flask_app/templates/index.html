@@ -59,20 +59,20 @@
 <body>
     <div class="container">
         <h1>Performance Testing Automation</h1>
-        <form action="/run-test" method="post">
+        <form id="testPlanForm" action="/update_test_plan" method="post">
             <label for="base_url">Base URL:</label>
-            <input type="text" id="base_url" name="base_url" placeholder="https://www.example.com" required>
+            <input type="text" id="base_url" name="base_url" placeholder="example.com" required>
             
             <label for="path">Path:</label>
-            <input type="text" id="path" name="path" placeholder="/path/to/test" required>
+            <input type="text" id="path" name="path" placeholder="/" required>
             
             <label for="users">Users:</label>
-            <input type="number" id="users" name="users" min="1" placeholder="Number of users" required>
+            <input type="number" id="users" name="users" min="1" placeholder="Send X Number of Users e.g.=10" required>
             
             <label for="loop_count">Loop Count:</label>
-            <input type="number" id="loop_count" name="loop_count" min="1" placeholder="Number of loops" required>
+            <input type="number" id="loop_count" name="loop_count" min="1" placeholder="User Will Send X Number of Requests e.g.=5" required>
             
-            <button type="submit">Run Test</button>
+            <button type="submit">Run Test Plan</button>
         </form>
         
     </div>

@@ -5,6 +5,8 @@ import pandas as pd
 from flask import Flask, jsonify, render_template, request, redirect, url_for
 from importlib.machinery import SourceFileLoader
 
+
+
 # Set up project base directory
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.append(BASE_DIR)
@@ -33,14 +35,20 @@ execute_test = SourceFileLoader("test_executor.execute_test",
     os.path.join(BASE_DIR, "test_executor", "execute_test.py")).load_module()
 run_jmeter_test = execute_test.run_jmeter_test
 
-# Flask app setup
+update_summary_results = SourceFileLoader(
+    "analyze_results.update_summary_results",
+    os.path.join(BASE_DIR, "ai_output_analyzer", "analyze_results.py")
+).load_module().update_summary_results
+
+
+# Flask app setup   
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-from ai_input_generator.generate_test_plan import create_test_plan
+from ai_input_generator.generate_test_plan import create_test_plan, update_jmx
 
 @app.route("/generate-test-plan", methods=["POST"])
 def generate_test_plan():
@@ -59,18 +67,94 @@ def generate_test_plan():
 def run_test():
     try:
         results_file = os.path.join(OUTPUTS_DIR, 'results.csv')
+        summary_file = os.path.join(OUTPUTS_DIR, 'summary_results.csv')
 
-        # Run anomaly detection
+        # Parametrelerden loop_count alın
+        loop_count = int(request.form.get("loop_count", 1))
+
+        # Eğer dosyalar yoksa, gerekli başlıklarla oluştur
+        pd.DataFrame(columns=[
+            'timeStamp', 'elapsed', 'label', 'responseCode', 'responseMessage',
+            'threadName', 'dataType', 'success', 'failureMessage', 'bytes',
+            'sentBytes', 'grpThreads', 'allThreads', 'URL', 'Latency', 'IdleTime', 'Connect'
+        ]).to_csv(results_file, index=False)
+
+        if not os.path.exists(summary_file):
+            pd.DataFrame(columns=[
+                "Kullanıcı Sayısı", "Döngü Sayısı", "LSTM Anomali Sayısı",
+                "LSTM Anomali Yüzdesi (%)", "Ortalama Yanıt Süresi (ms)",
+                "Hata Oranı (%)", "Maksimum Yanıt Süresi (ms)", "Minimum Yanıt Süresi (ms)"
+            ]).to_csv(summary_file, index=False)
+
+        # JMeter testi çalıştır
+        run_jmeter_test()
+
+        # LSTM anomali tespiti
         lstm_anomalies, lstm_summary, plot_base64 = lstm_anomaly_detection(results_file)
 
-        # Save anomaly results
-        anomaly_file = os.path.join(OUTPUTS_DIR, 'anomalies.csv')
-        lstm_anomalies.to_csv(anomaly_file, index=False)
+        # Anomali sonuçlarını kaydet
+        anomalies_file = os.path.join(OUTPUTS_DIR, 'anomalies.csv')
+        lstm_anomalies.to_csv(anomalies_file, index=False)
+
+        # Summary results dosyasını güncelle
+        update_summary_results(results_file, summary_file, loop_count)
 
         return redirect(url_for('summary_results'))
     except Exception as e:
         return f"Error occurred: {e}", 500
 
+
+
+@app.route('/update_test_plan', methods=['POST'])
+def update_test_plan():
+    try:
+        # Kullanıcıdan gelen veriler
+        base_url = request.form.get('base_url')
+        path = request.form.get('path')
+        users = int(request.form.get('users'))  # Varsayılan değer: 10
+        loop_count = int(request.form.get('loop_count'))  # Varsayılan değer: 1
+
+        # JMX dosyasını güncelle
+        update_jmx(base_url, path, users, loop_count)
+
+        # Testi çalıştır ve sonuçları analiz et
+        results_file = os.path.join(OUTPUTS_DIR, 'results.csv')
+        summary_file = os.path.join(OUTPUTS_DIR, 'summary_results.csv')
+
+        # Gerekli dosyaları oluştur
+        if not os.path.exists(results_file):
+            pd.DataFrame(columns=[
+                'timeStamp', 'elapsed', 'label', 'responseCode', 'responseMessage',
+                'threadName', 'dataType', 'success', 'failureMessage', 'bytes',
+                'sentBytes', 'grpThreads', 'allThreads', 'URL', 'Latency', 'IdleTime', 'Connect'
+            ]).to_csv(results_file, index=False)
+
+        if not os.path.exists(summary_file):
+            pd.DataFrame(columns=[
+                "Kullanıcı Sayısı", "Döngü Sayısı", "LSTM Anomali Sayısı",
+                "LSTM Anomali Yüzdesi (%)", "Ortalama Yanıt Süresi (ms)",
+                "Hata Oranı (%)", "Maksimum Yanıt Süresi (ms)", "Minimum Yanıt Süresi (ms)"
+            ]).to_csv(summary_file, index=False)
+
+        # JMeter testi çalıştır
+        run_jmeter_test()
+
+        # LSTM anomali tespiti
+        lstm_anomalies, lstm_summary, plot_base64 = lstm_anomaly_detection(results_file)
+
+        # Anomali sonuçlarını kaydet
+        anomalies_file = os.path.join(OUTPUTS_DIR, 'anomalies.csv')
+        lstm_anomalies.to_csv(anomalies_file, index=False)
+
+        # Summary sonuçlarını güncelle (loop_count ekleniyor)
+        update_summary_results(results_file, summary_file, loop_count)
+
+        return redirect(url_for('summary_results'))
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+    
 @app.route('/error_results')
 def error_results():
     try:
@@ -112,10 +196,13 @@ def summary_results():
         results_file = os.path.join(OUTPUTS_DIR, 'results.csv')
         summary_file = os.path.join(OUTPUTS_DIR, 'summary_results.csv')
 
+        # summary_results.csv'yi yükleyin
         summary_data = pd.read_csv(summary_file).to_dict(orient='records')
+
+        # LSTM anomalileri ve özet verisini oluşturun
         lstm_anomalies, lstm_summary, plot_base64 = lstm_anomaly_detection(results_file)
 
-        # Reconstruction errors ve threshold değerini Chart.js için JSON olarak hazırlayın
+        # Reconstruction errors ve threshold verisini JSON formatına dönüştürün
         reconstruction_errors = lstm_anomalies['reconstruction_error'].tolist()
         threshold = lstm_summary['Threshold Used']
 

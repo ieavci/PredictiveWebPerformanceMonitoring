@@ -4,21 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Summary Results</title>
+    <title>Anomaly Detection Chart</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #1e1e1e;
             color: #ffffff;
+            margin: 0;
+            display: flex;
+            flex-direction: row;
         }
 
         .container {
-            max-width: 900px;
-            margin: 20px auto;
+            width: 100%;
             padding: 20px;
+            overflow-y: auto;
+        }
+
+        .modal {
+            width: 40%;
             background-color: #2d2d2d;
-            border-radius: 8px;
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100%;
+            box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
+        }
+
+        .modal-header h2 {
+            color: #4CAF50;
+            margin: 0;
+        }
+
+        .close-button {
+            background: none;
+            color: #ffffff;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        h1, h2 {
+            color: #4CAF50;
         }
 
         table {
@@ -27,8 +70,7 @@
             margin: 20px 0;
         }
 
-        th,
-        td {
+        th, td {
             padding: 10px;
             text-align: left;
             border-bottom: 1px solid #444;
@@ -39,12 +81,8 @@
             color: #4CAF50;
         }
 
-        tr:hover {
+        tbody tr:hover {
             background-color: #3a3a3a;
-        }
-
-        h2 {
-            color: #4CAF50;
         }
 
         .button-container {
@@ -67,30 +105,48 @@
             background-color: #c0392b;
         }
 
+        .open-modal-button {
+            background-color: #4CAF50;
+        }
+
+        .open-modal-button:hover {
+            background-color: #45a049;
+        }
+
+        .secondary-button {
+            margin-top: 10px;
+            background-color: #4CAF50;
+        }
+
+        .secondary-button:hover {
+            background-color: #45a049;
+        }
+
         canvas {
             margin-top: 20px;
+            max-width: 100%;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <h1>Test Sonuçları Özeti</h1>
+        <h1>Anomaly Detection Results</h1>
         <div class="button-container">
-            <a href="/error_results" class="button">Failed Requests</a>
+            <a href="/error_results" class="button secondary-button">Error Results</a>
+            <a href="/anomalies_results" class="button secondary-button">Anomalies Results</a>
         </div>
-        <div class="button-container">
-            <a href="/anomalies_results" class="button">Anomalie Requests</a>
-        </div>
+
+        <h2>Summary Statistics</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Kullanıcı Sayısı</th>
-                    <th>Döngü Sayısı</th>
-                    <th>Ortalama Yanıt Süreti (ms)</th>
-                    <th>Hata Oranı (%)</th>
-                    <th>Maksimum Yanıt Süreti (ms)</th>
-                    <th>Minimum Yanıt Süreti (ms)</th>
+                    <th>Users</th>
+                    <th>Iterations</th>
+                    <th>Average Response Time (ms)</th>
+                    <th>Error Rate (%)</th>
+                    <th>Max Response Time (ms)</th>
+                    <th>Min Response Time (ms)</th>
                 </tr>
             </thead>
             <tbody>
@@ -98,31 +154,46 @@
                 <tr>
                     <td>{{ row['Kullanıcı Sayısı'] }}</td>
                     <td>{{ row['Döngü Sayısı'] }}</td>
-                    <td>{{ row['Ortalama Yanıt Süreti (ms)'] }}</td>
+                    <td>{{ row['Ortalama Yanıt Süresi (ms)'] }}</td>
                     <td>{{ row['Hata Oranı (%)'] }}</td>
-                    <td>{{ row['Maksimum Yanıt Süreti (ms)'] }}</td>
-                    <td>{{ row['Minimum Yanıt Süreti (ms)'] }}</td>
+                    <td>{{ row['Maksimum Yanıt Süresi (ms)'] }}</td>
+                    <td>{{ row['Minimum Yanıt Süresi (ms)'] }}</td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
-        <div>
-            <h2>LSTM Anomali Özeti</h2>
-            <p><strong>Toplam İstek:</strong> {{ lstm_summary['Total Requests'] }}</p>
-            <p><strong>Toplam Anomali:</strong> {{ lstm_summary['Total Anomalies'] }}</p>
-            <p><strong>Anomali Oranı (%):</strong> {{ lstm_summary['Anomaly Percentage (%)'] }}</p>
-            <p><strong>Kullanılan Eşik Değeri:</strong> {{ lstm_summary['Threshold Used'] }}</p>
 
-            <h2>Reconstruction Error Grafiği</h2>
-            <canvas id="errorChart" width="800" height="400"></canvas>
+        <div class="button-container">
+            <button class="button open-modal-button" onclick="toggleModal()">LSTM Anomali Grafiği</button>
         </div>
     </div>
 
+    <div class="modal" id="chartModal">
+        <div class="modal-header">
+            <h2>LSTM Anomali Özeti</h2>
+            <button class="close-button" onclick="toggleModal()">×</button>
+        </div>
+        <p><strong>Toplam İstek:</strong> {{ lstm_summary['Total Requests'] }}</p>
+        <p><strong>Toplam Anomali:</strong> {{ lstm_summary['Total Anomalies'] }}</p>
+        <p><strong>Anomali Oranı (%):</strong> {{ lstm_summary['Anomaly Percentage (%)'] }}</p>
+        <p><strong>Kullanılan Eşik Değeri:</strong> {{ lstm_summary['Threshold Used'] }}</p>
+        <canvas id="errorChart"></canvas>
+    </div>
+
     <script>
+        function toggleModal() {
+            const modal = document.getElementById('chartModal');
+            modal.classList.toggle('active');
+        }
+
         const reconstructionErrors = {{ reconstruction_errors | safe }};
         const threshold = {{ lstm_summary['Threshold Used'] }};
 
+        // Identify anomalies
+        const anomalies = reconstructionErrors.map((val, idx) => (val > threshold ? { x: idx + 1, y: val } : null)).filter(Boolean);
+
         const ctx = document.getElementById('errorChart').getContext('2d');
+
         new Chart(ctx, {
             type: 'line',
             data: {
@@ -133,14 +204,28 @@
                         data: reconstructionErrors,
                         borderColor: 'rgba(75, 192, 192, 1)',
                         backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        pointRadius: 0,
+                        borderWidth: 2,
+                        tension: 0.3,
                         fill: true,
                     },
                     {
                         label: 'Threshold',
                         data: Array(reconstructionErrors.length).fill(threshold),
                         borderColor: 'rgba(255, 99, 132, 1)',
-                        borderDash: [10, 5],
+                        borderWidth: 2,
+                        borderDash: [5, 5],
                         fill: false,
+                    },
+                    {
+                        label: 'Anomalies',
+                        data: anomalies,
+                        borderColor: 'rgba(255, 206, 86, 1)',
+                        backgroundColor: 'rgba(255, 206, 86, 0.6)',
+                        type: 'scatter',
+                        pointRadius: 6,
+                        pointStyle: 'circle',
+                        showLine: false,
                     },
                 ],
             },
@@ -149,27 +234,30 @@
                 plugins: {
                     legend: {
                         position: 'top',
+                        labels: {
+                            font: {
+                                size: 12,
+                            },
+                        },
                     },
                 },
                 scales: {
                     x: {
                         title: {
                             display: true,
-                            text: 'Samples',
-                            color: '#ffffff',
-                        },
-                        ticks: {
-                            color: '#ffffff',
+                            text: 'Sample Index',
+                            font: {
+                                size: 14,
+                            },
                         },
                     },
                     y: {
                         title: {
                             display: true,
-                            text: 'Error',
-                            color: '#ffffff',
-                        },
-                        ticks: {
-                            color: '#ffffff',
+                            text: 'Error Value',
+                            font: {
+                                size: 14,
+                            },
                         },
                     },
                 },
