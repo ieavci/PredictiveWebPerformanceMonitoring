@@ -1,9 +1,12 @@
 # app.py
+import csv
 import os
 import sys
+import numpy as np
 import pandas as pd
 from flask import Flask, jsonify, render_template, request, redirect, url_for
 from importlib.machinery import SourceFileLoader
+import plotly.express as px
 
 
 
@@ -68,6 +71,7 @@ def run_test():
     try:
         results_file = os.path.join(OUTPUTS_DIR, 'results.csv')
         summary_file = os.path.join(OUTPUTS_DIR, 'summary_results.csv')
+        error_file = os.path.join(OUTPUTS_DIR, 'error_results.csv')
 
         # Parametrelerden loop_count alın
         loop_count = int(request.form.get("loop_count", 1))
@@ -96,13 +100,29 @@ def run_test():
         anomalies_file = os.path.join(OUTPUTS_DIR, 'anomalies.csv')
         lstm_anomalies.to_csv(anomalies_file, index=False)
 
+        # Hatalı satırları filtrele ve `error_results.csv` dosyasına yaz
+        print("Loading results.csv...")
+        results_file = pd.read_csv(results_file)
+        print(f"Results DataFrame:\n{results_file.head()}")
+
+        error_codes = [
+            400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418,
+            421, 422, 423, 424, 425, 426, 427, 428, 429, 431, 444, 451, 499, 500, 501, 502, 503, 504, 505,
+            506, 507, 508, 510, 511
+        ]
+        error_data = results_file[results_file['responseCode'].astype(int).isin(error_codes)]
+        print(f"Filtered Error DataFrame:\n{error_data.head()}")
+
+        error_data.to_csv(error_file, index=False)
+        print(f"Error results written to {error_file}")
+
         # Summary results dosyasını güncelle
         update_summary_results(results_file, summary_file, loop_count)
 
         return redirect(url_for('summary_results'))
     except Exception as e:
+        print(f"Error occurred: {e}")
         return f"Error occurred: {e}", 500
-
 
 
 @app.route('/update_test_plan', methods=['POST'])
@@ -168,9 +188,9 @@ def error_results():
             error_data = []
 
         return render_template('error_results.html', error_data=error_data)
-    
     except Exception as e:
         return f"Error occurred: {e}", 500
+    
 
 @app.route('/anomalies_results')
 def anomalie_results():
@@ -193,26 +213,109 @@ def anomalie_results():
 @app.route('/summary_results')
 def summary_results():
     try:
-        results_file = os.path.join(OUTPUTS_DIR, 'results.csv')
-        summary_file = os.path.join(OUTPUTS_DIR, 'summary_results.csv')
+        results_file_path = os.path.join(OUTPUTS_DIR, 'results.csv')
+        summary_file_path = os.path.join(OUTPUTS_DIR, 'summary_results.csv')
 
-        # summary_results.csv'yi yükleyin
-        summary_data = pd.read_csv(summary_file).to_dict(orient='records')
+        # Dosyaları yükleme
+        results_file = pd.read_csv(results_file_path)
+        summary_data = pd.read_csv(summary_file_path).to_dict(orient='records')
 
         # LSTM anomalileri ve özet verisini oluşturun
-        lstm_anomalies, lstm_summary, plot_base64 = lstm_anomaly_detection(results_file)
+        lstm_anomalies, lstm_summary, plot_base64 = lstm_anomaly_detection(results_file_path)
 
         # Reconstruction errors ve threshold verisini JSON formatına dönüştürün
         reconstruction_errors = lstm_anomalies['reconstruction_error'].tolist()
         threshold = lstm_summary['Threshold Used']
 
+        # Timestamp'leri dönüştürme
+        results_file['timeStamp'] = pd.to_datetime(results_file['timeStamp'], unit='ms')
+
+        # Response Time Distribution (Box Plot)
+        response_time_fig = px.box(
+            results_file, 
+            x='label', 
+            y='elapsed', 
+            title='Response Time Distribution by Test',
+            labels={'label': 'Test Name', 'elapsed': 'Response Time (ms)'},
+            color='label'
+        )
+
+        # Success/Failure Count (Stacked Bar Chart)
+        success_count = results_file.groupby(['label', 'success']).size().reset_index(name='count')
+        success_failure_fig = px.bar(
+            success_count, 
+            x='label', 
+            y='count', 
+            color='success', 
+            title='Success vs Failure Count by Test',
+            labels={'label': 'Test Name', 'count': 'Count', 'success': 'Success'},
+            barmode='stack'
+        )
+
+        # HTTP Response Code Distribution (Pie Chart)
+        response_code_count = results_file['responseCode'].value_counts().reset_index()
+        response_code_count.columns = ['responseCode', 'count']
+        response_code_fig = px.pie(
+            response_code_count, 
+            names='responseCode', 
+            values='count', 
+            title='HTTP Response Code Distribution'
+        )
+
+        # Time Series Analysis of Success/Failure
+        results_file['success_numeric'] = results_file['success'].astype(int)
+        time_series_fig = px.line(
+            results_file, 
+            x='timeStamp', 
+            y='success_numeric', 
+            title='Time Series of Success (1) and Failure (0)',
+            labels={'timeStamp': 'Timestamp', 'success_numeric': 'Success (1) / Failure (0)'},
+            color='label'
+        )
+        # Line chart for Latency, IdleTime, Connect, and Elapsed time by Test
+        multi_metric_fig = px.line(
+        results_file, 
+        x='timeStamp', 
+        y=['Latency', 'IdleTime', 'Connect', 'elapsed'],  # Multiple y-values
+        title='Latency, IdleTime, Connect, and Elapsed Time by Test',
+        labels={'timeStamp': 'Timestamp'},
+        color='label',
+        line_shape='linear'
+        )
+
+        # Fonksiyona girdiğiniz Plotly figüründen JSON-uyumlu hale getirme
+        def jsonify_figure(fig):
+            fig_dict = fig.to_dict()
+            # Verinin içindeki numpy.ndarray türündeki tüm değerleri listeye dönüştürün
+            for trace in fig_dict.get('data', []):
+                for key, value in trace.items():
+                    if isinstance(value, np.ndarray):
+                        trace[key] = value.tolist()
+            for key, value in fig_dict.get('layout', {}).items():
+                if isinstance(value, np.ndarray):
+                    fig_dict['layout'][key] = value.tolist()
+            return fig_dict
+
+        # Kullanım
+        response_time_html = jsonify_figure(response_time_fig)
+        success_failure_html = jsonify_figure(success_failure_fig)
+        response_code_html = jsonify_figure(response_code_fig)
+        time_series_html = jsonify_figure(time_series_fig)
+        multi_metric_html = jsonify_figure(multi_metric_fig)
+        
         return render_template(
             'summary_results.html',
             summary_data=summary_data,
             lstm_summary=lstm_summary,
             reconstruction_errors=reconstruction_errors,
-            threshold=threshold
+            threshold=threshold,
+            response_time_boxplot=response_time_html,
+            success_failure_bar_chart=success_failure_html,
+            response_code_pie_chart=response_code_html,
+            success_failure_time_series=time_series_html,
+            multi_metric_chart=multi_metric_html 
         )
+        
     except Exception as e:
         return f"Error occurred: {e}", 500
 

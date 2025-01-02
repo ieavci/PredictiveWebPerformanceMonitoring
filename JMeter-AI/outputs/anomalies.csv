@@ -1,4 +1,2 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect,reconstruction_error,is_anomaly
-1735127595740,317,HTTP Request,200,OK,Thread Group 1-7,text,True,,1598,113,3,3,http://example.com/,317,0,157,0.12437044311989809,True
-1735127596240,315,HTTP Request,200,OK,Thread Group 1-8,text,True,,1609,113,3,3,http://example.com/,315,0,158,0.12308618900271796,True
-1735127597239,324,HTTP Request,200,OK,Thread Group 1-10,text,True,,1593,113,3,3,http://example.com/,324,0,166,0.13912144769151538,True
+1735811049181,1368,HTTP Request,404,Not Found,Thread Group 1-1,text,False,,26305,242,1,1,https://www.trendyol.com/iso,481,0,365,0.9482713557514764,True

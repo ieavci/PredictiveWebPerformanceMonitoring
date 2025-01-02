@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+h1,
+h2 {
+    color: #4CAF50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #3a3a3a;
+    color: #4CAF50;
+}
+
+tbody tr:hover {
+    background-color: #3a3a3a;
+}
+
+.button-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #c0392b;
+}
+
+.secondary-button {
+    margin-top: 10px;
+    background-color: #4CAF50;
+}
+
+.secondary-button:hover {
+    background-color: #45a049;
+}
+
+canvas {
+    margin-top: 20px;
+    max-width: 100%;
+}
+.text-container{
+    background-color: #2d2d2d;
+    padding: 0px 0px;
+    margin: 0px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.chart-container {
+    margin: 20px 30px;
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 400px; /* Her grafik için sabit bir yükseklik */
+}
+
+.chart-container > div {
+    flex-grow: 1; /* Grafik alanının konteynerde genişlemesini sağlar */
+}
+
+#charts {
+    display: flex;
+    flex-direction: column;
+}
+
+#charts p{
+    font-size: 14px;
+    color: #cccccc;
+    text-align: center;
+
+}
+#charts h3{
+    color: #4CAF50;
+    font-size: 18px;
+    text-align: center;
+}
+.horizontal-line {
+    border-top: 2px solid #4CAF50; /* Yeşil renkli yatay çizgi */
+    margin: 20px 30px;
+    width: calc(100% - 60px); /* Line width to match container margins */
+}
+
+.modal {
+    width: 45%;
+    height: 100%;
+    max-width: none;
+    background-color: #2d2d2d;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    /* Modal başlangıçta gizli */
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 0;
+    transition: right 0.3s ease-in-out;
+    overflow-y: auto;
+}
+
+.modal.active {
+    right: 0;
+    /* Modal açıldığında sağda görünür */
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.modal-header h2 {
+    color: #4CAF50;
+    margin: 0;
+}
+
+.close-button {
+    background: none;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal.active {
+    display: flex;
+}

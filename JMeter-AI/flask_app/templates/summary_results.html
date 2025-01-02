@@ -6,127 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anomaly Detection Chart</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1e1e1e;
-            color: #ffffff;
-            margin: 0;
-            display: flex;
-            flex-direction: row;
-        }
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="../static/summary_results.css">
 
-        .container {
-            width: 100%;
-            padding: 20px;
-            overflow-y: auto;
-        }
-
-        .modal {
-            width: 40%;
-            background-color: #2d2d2d;
-            position: fixed;
-            top: 0;
-            right: 0;
-            height: 100%;
-            box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            display: none;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .modal-header {
-            display: flex;
-            justify-content: space-between;
-            width: 100%;
-            align-items: center;
-        }
-
-        .modal-header h2 {
-            color: #4CAF50;
-            margin: 0;
-        }
-
-        .close-button {
-            background: none;
-            color: #ffffff;
-            border: none;
-            font-size: 20px;
-            cursor: pointer;
-        }
-
-        .modal.active {
-            display: flex;
-        }
-
-        h1, h2 {
-            color: #4CAF50;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #444;
-        }
-
-        th {
-            background-color: #3a3a3a;
-            color: #4CAF50;
-        }
-
-        tbody tr:hover {
-            background-color: #3a3a3a;
-        }
-
-        .button-container {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .button {
-            background-color: #e74c3c;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 16px;
-        }
-
-        .button:hover {
-            background-color: #c0392b;
-        }
-
-        .open-modal-button {
-            background-color: #4CAF50;
-        }
-
-        .open-modal-button:hover {
-            background-color: #45a049;
-        }
-
-        .secondary-button {
-            margin-top: 10px;
-            background-color: #4CAF50;
-        }
-
-        .secondary-button:hover {
-            background-color: #45a049;
-        }
-
-        canvas {
-            margin-top: 20px;
-            max-width: 100%;
-        }
-    </style>
 </head>
 
 <body>
@@ -135,6 +17,8 @@
         <div class="button-container">
             <a href="/error_results" class="button secondary-button">Error Results</a>
             <a href="/anomalies_results" class="button secondary-button">Anomalies Results</a>
+            <button class="button open-modal-button" onclick="toggleModal()">LSTM Anomalie Results</button>
+
         </div>
 
         <h2>Summary Statistics</h2>
@@ -163,20 +47,87 @@
             </tbody>
         </table>
 
-        <div class="button-container">
-            <button class="button open-modal-button" onclick="toggleModal()">LSTM Anomali Grafiği</button>
+        <div class="visualizations">
+            <h2>Visualizations</h2>
+            <div id="charts">
+                <div class="text-container">
+                    <h3>Response Time Box Plot</h3>
+                    <p>Shows the distribution of response times, including minimum, median, and maximum values to help
+                        identify outliers.</p>
+                </div>
+
+                <div id="responseTimeBoxPlot" class="chart-container">
+                </div>
+
+                <div class="horizontal-line"></div> <!-- Horizontal line after the first chart -->
+
+                <div class="text-container">
+                    <h3>Success vs Failure Bar Chart</h3>
+                    <p>Compares the number of successful and failed requests to identify overall system stability.</p>
+                </div>
+
+                <div id="successFailureBarChart" class="chart-container">
+                </div>
+
+                <div class="horizontal-line"></div> <!-- Horizontal line after the second chart -->
+
+                <div class="text-container">
+                    <h3>Response Code Distribution</h3>
+                    <p>Displays the proportion of different HTTP response codes to understand server behavior.</p>
+                </div>
+
+                <div id="responseCodePieChart" class="chart-container">
+                </div>
+
+                <div class="horizontal-line"></div> <!-- Horizontal line after the third chart -->
+                <div class="text-container">
+                    <h3>Latency, IdleTime, Connect, and Elapsed Time</h3>
+                    <p>Compares the Latency, IdleTime, Connect, and Elapsed times for each test across time.</p>
+                </div>
+                <div id="multiMetricChart" class="chart-container"></div>
+                <div class="horizontal-line"></div>
+                <div class="text-container">
+                    <h3>Success and Failure Over Time</h3>
+                    <p>Shows the trend of successes and failures over time to analyze performance patterns.</p>
+                </div>
+
+                <div id="successFailureTimeSeries" class="chart-container">
+                </div>
+            </div>
         </div>
+
+
+
+
+
+        <script>
+            const responseTimeBoxPlot = {{ response_time_boxplot | tojson }};
+            const successFailureBarChart = {{ success_failure_bar_chart | tojson }};
+            const responseCodePieChart = {{ response_code_pie_chart | tojson }};
+            const successFailureTimeSeries = {{ success_failure_time_series | tojson }};
+            const multiMetricChart = {{ multi_metric_chart | tojson }};
+
+            Plotly.newPlot('responseTimeBoxPlot', responseTimeBoxPlot.data, responseTimeBoxPlot.layout);
+            Plotly.newPlot('successFailureBarChart', successFailureBarChart.data, successFailureBarChart.layout);
+            Plotly.newPlot('responseCodePieChart', responseCodePieChart.data, responseCodePieChart.layout);
+            Plotly.newPlot('successFailureTimeSeries', successFailureTimeSeries.data, successFailureTimeSeries.layout);
+            Plotly.newPlot('multiMetricChart', multiMetricChart.data, multiMetricChart.layout);
+
+        </script>
+
+
     </div>
 
     <div class="modal" id="chartModal">
         <div class="modal-header">
-            <h2>LSTM Anomali Özeti</h2>
+            <h2>LSTM Anomalie Results</h2>
             <button class="close-button" onclick="toggleModal()">×</button>
         </div>
-        <p><strong>Toplam İstek:</strong> {{ lstm_summary['Total Requests'] }}</p>
-        <p><strong>Toplam Anomali:</strong> {{ lstm_summary['Total Anomalies'] }}</p>
-        <p><strong>Anomali Oranı (%):</strong> {{ lstm_summary['Anomaly Percentage (%)'] }}</p>
-        <p><strong>Kullanılan Eşik Değeri:</strong> {{ lstm_summary['Threshold Used'] }}</p>
+        <p><strong>Total Requests:</strong> {{ lstm_summary['Total Requests'] }}</p>
+        <p><strong>Total Anomalies:</strong> {{ lstm_summary['Total Anomalies'] }}</p>
+        <p><strong>Anomaly Rate (%):</strong> {{ lstm_summary['Anomaly Percentage (%)'] }}</p>
+        <p><strong>Threshold Used:</strong> {{ lstm_summary['Threshold Used'] }}</p>
+
         <canvas id="errorChart"></canvas>
     </div>
 
@@ -189,7 +140,6 @@
         const reconstructionErrors = {{ reconstruction_errors | safe }};
         const threshold = {{ lstm_summary['Threshold Used'] }};
 
-        // Identify anomalies
         const anomalies = reconstructionErrors.map((val, idx) => (val > threshold ? { x: idx + 1, y: val } : null)).filter(Boolean);
 
         const ctx = document.getElementById('errorChart').getContext('2d');

@@ -1,261 +1,85 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1735124163170,455,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,2,2,http://example.com/,433,0,178
-1735124163652,162,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,2,2,http://example.com/,161,0,0
-1735124163620,316,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,2,2,http://example.com/,316,0,155
-1735124163815,162,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,2,2,http://example.com/,162,0,0
-1735124163937,157,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,2,2,http://example.com/,157,0,0
-1735124163977,159,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,2,2,http://example.com/,159,0,0
-1735124164095,157,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,3,3,http://example.com/,157,0,0
-1735124164137,164,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,3,3,http://example.com/,164,0,0
-1735124164252,157,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,3,3,http://example.com/,157,0,0
-1735124164302,176,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,3,3,http://example.com/,175,0,0
-1735124164241,327,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,3,3,http://example.com/,327,0,163
-1735124164410,159,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,3,3,http://example.com/,159,0,0
-1735124164478,167,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,3,3,http://example.com/,167,0,0
-1735124164569,156,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,3,3,http://example.com/,156,0,0
-1735124164569,159,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,3,3,http://example.com/,159,0,0
-1735124164645,190,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,3,3,http://example.com/,190,0,0
-1735124164729,174,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,4,4,http://example.com/,174,0,0
-1735124164726,177,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,4,4,http://example.com/,177,0,0
-1735124164837,180,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,4,4,http://example.com/,180,0,0
-1735124164904,183,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,4,4,http://example.com/,183,0,0
-1735124164904,183,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,4,4,http://example.com/,183,0,0
-1735124165019,160,HTTP Request,200,OK,Thread Group 1-1,text,true,,1609,113,4,4,http://example.com/,160,0,0
-1735124165087,153,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,3,3,http://example.com/,153,0,0
-1735124164868,372,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,372,0,218
-1735124165087,155,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,3,3,http://example.com/,155,0,0
-1735124165241,159,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,3,3,http://example.com/,159,0,0
-1735124165241,159,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,159,0,0
-1735124165243,158,HTTP Request,200,OK,Thread Group 1-2,text,true,,1593,113,3,3,http://example.com/,158,0,0
-1735124165402,168,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,3,3,http://example.com/,168,0,0
-1735124165402,168,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,168,0,0
-1735124165571,160,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,3,3,http://example.com/,160,0,0
-1735124165571,160,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,160,0,0
-1735124165497,330,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,330,0,150
-1735124165733,193,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,193,0,0
-1735124165732,194,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,3,3,http://example.com/,194,0,0
-1735124165828,162,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,162,0,0
-1735124165926,161,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,161,0,0
-1735124165928,159,HTTP Request,200,OK,Thread Group 1-3,text,true,,1609,113,3,3,http://example.com/,159,0,0
-1735124165991,151,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,151,0,0
-1735124166087,180,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,179,0,0
-1735124166142,159,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,159,0,0
-1735124166268,161,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,161,0,0
-1735124166115,314,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,314,0,150
-1735124166302,186,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,186,0,0
-1735124166430,182,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,182,0,0
-1735124166430,182,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,182,0,0
-1735124166489,171,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,171,0,0
-1735124166613,178,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,4,4,http://example.com/,178,0,0
-1735124166613,178,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,4,4,http://example.com/,178,0,0
-1735124166660,154,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,154,0,0
-1735124166791,151,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,151,0,0
-1735124166814,154,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,154,0,0
-1735124166739,319,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,3,3,http://example.com/,319,0,165
-1735124166943,190,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,190,0,0
-1735124166968,179,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,179,0,0
-1735124167059,164,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,3,3,http://example.com/,164,0,0
-1735124167133,153,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,152,0,0
-1735124167148,153,HTTP Request,200,OK,Thread Group 1-5,text,true,,1609,113,3,3,http://example.com/,153,0,0
-1735124167223,172,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,3,3,http://example.com/,172,0,0
-1735124167286,149,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,149,0,0
-1735124167395,154,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,3,3,http://example.com/,154,0,0
-1735124167435,152,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,152,0,0
-1735124167363,299,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,3,3,http://example.com/,299,0,152
-1735124167550,161,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,3,3,http://example.com/,161,0,0
-1735124167587,150,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,150,0,0
-1735124167663,153,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,3,3,http://example.com/,153,0,0
-1735124167711,155,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,3,3,http://example.com/,155,0,0
-1735124167738,155,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,155,0,0
-1735124167817,149,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,2,2,http://example.com/,149,0,0
-1735124167867,164,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,2,2,http://example.com/,164,0,0
-1735124167966,157,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,2,2,http://example.com/,157,0,0
-1735124168031,156,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,2,2,http://example.com/,156,0,0
-1735124168123,147,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,2,2,http://example.com/,147,0,0
-1735124168188,164,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,2,2,http://example.com/,164,0,0
-1735124168271,148,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,2,2,http://example.com/,148,0,0
-1735124168352,157,HTTP Request,200,OK,Thread Group 1-7,text,true,,1593,113,2,2,http://example.com/,157,0,0
-1735124168420,175,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,1,1,http://example.com/,175,0,0
-1735124168595,147,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,1,1,http://example.com/,147,0,0
-1735124168742,148,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,1,1,http://example.com/,148,0,0
-1735124168892,159,HTTP Request,200,OK,Thread Group 1-8,text,true,,1598,113,1,1,http://example.com/,159,0,0
-1735126699063,540,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,2,2,http://example.com/,536,0,245
-1735126699615,157,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,2,2,http://example.com/,157,0,0
-1735126699529,298,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,2,2,http://example.com/,298,0,150
-1735126699772,154,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,2,2,http://example.com/,154,0,0
-1735126699828,150,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,2,2,http://example.com/,150,0,0
-1735126699927,155,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,2,2,http://example.com/,155,0,0
-1735126699978,151,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,2,2,http://example.com/,151,0,0
-1735126700082,156,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,3,3,http://example.com/,156,0,0
-1735126700129,149,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,3,3,http://example.com/,149,0,0
-1735126700238,153,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,3,3,http://example.com/,153,0,0
-1735126700279,151,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,3,3,http://example.com/,151,0,0
-1735126700152,356,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,356,0,176
-1735126700392,155,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,3,3,http://example.com/,155,0,0
-1735126700431,154,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,3,3,http://example.com/,153,0,0
-1735126700509,179,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,179,0,0
-1735126700549,157,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,3,3,http://example.com/,157,0,0
-1735126700585,152,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,3,3,http://example.com/,152,0,0
-1735126700706,162,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,4,4,http://example.com/,162,0,0
-1735126700688,186,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,4,4,http://example.com/,186,0,0
-1735126700738,150,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,4,4,http://example.com/,150,0,0
-1735126700869,171,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,4,4,http://example.com/,171,0,0
-1735126700889,186,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,3,3,http://example.com/,186,0,0
-1735126700875,200,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,200,0,0
-1735126700777,310,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,310,0,156
-1735126701076,157,HTTP Request,200,OK,Thread Group 1-2,text,true,,1609,113,3,3,http://example.com/,157,0,0
-1735126701076,187,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,2,2,http://example.com/,187,0,0
-1735126701088,176,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,2,2,http://example.com/,176,0,0
-1735126701264,153,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,153,0,0
-1735126701264,155,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,155,0,0
-1735126701419,152,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,152,0,0
-1735126701420,153,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,153,0,0
-1735126701409,321,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,3,3,http://example.com/,320,0,157
-1735126701573,159,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,159,0,0
-1735126701575,158,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,158,0,0
-1735126701734,160,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,159,0,0
-1735126701735,159,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,158,0,0
-1735126701731,167,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,3,3,http://example.com/,167,0,0
-1735126701896,154,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,4,4,http://example.com/,153,0,0
-1735126701896,155,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,4,4,http://example.com/,155,0,0
-1735126701900,157,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,3,3,http://example.com/,157,0,0
-1735126702052,154,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,154,0,0
-1735126702059,157,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,3,3,http://example.com/,157,0,0
-1735126702026,299,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,299,0,149
-1735126702207,152,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,152,0,0
-1735126702217,156,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,3,3,http://example.com/,156,0,0
-1735126702326,156,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,155,0,0
-1735126702360,154,HTTP Request,200,OK,Thread Group 1-4,text,true,,1593,113,3,3,http://example.com/,154,0,0
-1735126702373,157,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,2,2,http://example.com/,157,0,0
-1735126702483,150,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,2,2,http://example.com/,150,0,0
-1735126702530,160,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,3,3,http://example.com/,160,0,0
-1735126702634,151,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,151,0,0
-1735126702690,158,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,3,3,http://example.com/,158,0,0
-1735126702787,155,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,155,0,0
-1735126702849,158,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,3,3,http://example.com/,158,0,0
-1735126702651,358,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,3,3,http://example.com/,358,0,176
-1735126702943,151,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,151,0,0
-1735126703009,159,HTTP Request,200,OK,Thread Group 1-5,text,true,,1593,113,3,3,http://example.com/,159,0,0
-1735126703010,200,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,2,2,http://example.com/,200,0,0
-1735126703095,149,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,2,2,http://example.com/,149,0,0
-1735126703210,178,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,3,3,http://example.com/,178,0,0
-1735126703245,150,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,150,0,0
-1735126703395,153,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,153,0,0
-1735126703389,198,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,3,3,http://example.com/,198,0,0
-1735126703274,359,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,3,3,http://example.com/,359,0,173
-1735126703549,150,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,149,0,0
-1735126703588,180,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,2,2,http://example.com/,179,0,0
-1735126703634,174,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,2,2,http://example.com/,174,0,0
-1735126703768,174,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,2,2,http://example.com/,174,0,0
-1735126703808,154,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,2,2,http://example.com/,154,0,0
-1735126703943,164,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,2,2,http://example.com/,164,0,0
-1735126703962,151,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,2,2,http://example.com/,151,0,0
-1735126704113,150,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,2,2,http://example.com/,150,0,0
-1735126704107,156,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,2,2,http://example.com/,156,0,0
-1735126704264,150,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,2,2,http://example.com/,150,0,0
-1735126704264,156,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,2,2,http://example.com/,156,0,0
-1735126704415,152,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,2,2,http://example.com/,152,0,0
-1735126704421,158,HTTP Request,200,OK,Thread Group 1-7,text,true,,1609,113,2,2,http://example.com/,158,0,0
-1735126704567,150,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,1,1,http://example.com/,150,0,0
-1735126704717,154,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,1,1,http://example.com/,154,0,0
-1735126704875,153,HTTP Request,200,OK,Thread Group 1-8,text,true,,1593,113,1,1,http://example.com/,153,0,0
-1735127592901,414,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,2,2,http://example.com/,405,0,178
-1735127593329,152,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,2,2,http://example.com/,152,0,0
-1735127593244,300,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,2,2,http://example.com/,300,0,150
-1735127593481,154,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,2,2,http://example.com/,154,0,0
-1735127593544,153,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,2,2,http://example.com/,153,0,0
-1735127593636,153,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,3,3,http://example.com/,153,0,0
-1735127593697,154,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,3,3,http://example.com/,154,0,0
-1735127593790,151,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,3,3,http://example.com/,151,0,0
-1735127593852,151,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,3,3,http://example.com/,151,0,0
-1735127593743,321,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,321,0,155
-1735127593942,153,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,3,3,http://example.com/,152,0,0
-1735127594004,156,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,3,3,http://example.com/,155,0,0
-1735127594064,162,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,162,0,0
-1735127594095,152,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,4,4,http://example.com/,152,0,0
-1735127594160,154,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,4,4,http://example.com/,154,0,0
-1735127594226,154,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,4,4,http://example.com/,154,0,0
-1735127594247,152,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,4,4,http://example.com/,152,0,0
-1735127594314,151,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,4,4,http://example.com/,150,0,0
-1735127594381,167,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,4,4,http://example.com/,167,0,0
-1735127594241,310,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,4,4,http://example.com/,310,0,153
-1735127594400,169,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,4,4,http://example.com/,169,0,0
-1735127594465,158,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,4,4,http://example.com/,157,0,0
-1735127594549,157,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,4,4,http://example.com/,157,0,0
-1735127594552,156,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,4,4,http://example.com/,156,0,0
-1735127594570,151,HTTP Request,200,OK,Thread Group 1-1,text,true,,1593,113,4,4,http://example.com/,151,0,0
-1735127594624,154,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,4,4,http://example.com/,154,0,0
-1735127594708,171,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,4,4,http://example.com/,170,0,0
-1735127594707,172,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,4,4,http://example.com/,172,0,0
-1735127594778,152,HTTP Request,200,OK,Thread Group 1-2,text,true,,1598,113,4,4,http://example.com/,152,0,0
-1735127594879,155,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,3,3,http://example.com/,155,0,0
-1735127594879,168,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,168,0,0
-1735127594742,313,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,3,3,http://example.com/,313,0,152
-1735127595034,167,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,3,3,http://example.com/,167,0,0
-1735127595047,155,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,3,3,http://example.com/,155,0,0
-1735127595055,158,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,3,3,http://example.com/,158,0,0
-1735127595202,159,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,4,4,http://example.com/,159,0,0
-1735127595202,159,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,4,4,http://example.com/,159,0,0
-1735127595214,150,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,4,4,http://example.com/,150,0,0
-1735127595361,154,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,4,4,http://example.com/,153,0,0
-1735127595361,161,HTTP Request,200,OK,Thread Group 1-3,text,true,,1593,113,4,4,http://example.com/,160,0,0
-1735127595364,158,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,4,4,http://example.com/,158,0,0
-1735127595240,308,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,308,0,153
-1735127595515,153,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,3,3,http://example.com/,153,0,0
-1735127595522,152,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,3,3,http://example.com/,152,0,0
-1735127595549,153,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,153,0,0
-1735127595668,159,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,4,4,http://example.com/,159,0,0
-1735127595674,153,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,4,4,http://example.com/,153,0,0
-1735127595703,152,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,4,4,http://example.com/,152,0,0
-1735127595828,153,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,4,4,http://example.com/,153,0,0
-1735127595828,153,HTTP Request,200,OK,Thread Group 1-4,text,true,,1609,113,4,4,http://example.com/,153,0,0
-1735127595856,153,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,153,0,0
-1735127595740,317,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,3,3,http://example.com/,317,0,157
-1735127595982,153,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,3,3,http://example.com/,153,0,0
-1735127596010,154,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,154,0,0
-1735127596058,159,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,3,3,http://example.com/,159,0,0
-1735127596136,151,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,4,4,http://example.com/,151,0,0
-1735127596164,161,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,4,4,http://example.com/,161,0,0
-1735127596218,161,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,4,4,http://example.com/,161,0,0
-1735127596287,151,HTTP Request,200,OK,Thread Group 1-5,text,true,,1598,113,4,4,http://example.com/,151,0,0
-1735127596326,161,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,161,0,0
-1735127596379,167,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,3,3,http://example.com/,167,0,0
-1735127596240,315,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,3,3,http://example.com/,315,0,158
-1735127596487,156,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,3,3,http://example.com/,156,0,0
-1735127596547,160,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,3,3,http://example.com/,160,0,0
-1735127596555,160,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,3,3,http://example.com/,160,0,0
-1735127596644,157,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,4,4,http://example.com/,157,0,0
-1735127596707,160,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,4,4,http://example.com/,160,0,0
-1735127596716,156,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,4,4,http://example.com/,156,0,0
-1735127596802,155,HTTP Request,200,OK,Thread Group 1-6,text,true,,1609,113,4,4,http://example.com/,155,0,0
-1735127596868,158,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,3,3,http://example.com/,158,0,0
-1735127596873,154,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,3,3,http://example.com/,154,0,0
-1735127596741,305,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,3,3,http://example.com/,305,0,153
-1735127597027,157,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,3,3,http://example.com/,157,0,0
-1735127597027,160,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,3,3,http://example.com/,160,0,0
-1735127597046,153,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,3,3,http://example.com/,153,0,0
-1735127597184,164,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,4,4,http://example.com/,163,0,0
-1735127597187,163,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,4,4,http://example.com/,163,0,0
-1735127597200,153,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,4,4,http://example.com/,152,0,0
-1735127597354,154,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,4,4,http://example.com/,154,0,0
-1735127597353,158,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,4,4,http://example.com/,158,0,0
-1735127597351,160,HTTP Request,200,OK,Thread Group 1-7,text,true,,1598,113,4,4,http://example.com/,160,0,0
-1735127597239,324,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,3,3,http://example.com/,324,0,166
-1735127597509,167,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,3,3,http://example.com/,167,0,0
-1735127597511,169,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,3,3,http://example.com/,169,0,0
-1735127597563,157,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,3,3,http://example.com/,157,0,0
-1735127597681,207,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,3,3,http://example.com/,207,0,0
-1735127597722,166,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,3,3,http://example.com/,166,0,0
-1735127597676,215,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,3,3,http://example.com/,215,0,0
-1735127597888,155,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,3,3,http://example.com/,155,0,0
-1735127597888,156,HTTP Request,200,OK,Thread Group 1-8,text,true,,1609,113,3,3,http://example.com/,156,0,0
-1735127597891,155,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,2,2,http://example.com/,155,0,0
-1735127598047,154,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,2,2,http://example.com/,154,0,0
-1735127598044,159,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,2,2,http://example.com/,159,0,0
-1735127598202,155,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,2,2,http://example.com/,155,0,0
-1735127598203,155,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,2,2,http://example.com/,155,0,0
-1735127598358,154,HTTP Request,200,OK,Thread Group 1-9,text,true,,1614,113,2,2,http://example.com/,154,0,0
-1735127598359,157,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,1,1,http://example.com/,157,0,0
-1735127598517,162,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,1,1,http://example.com/,162,0,0
-1735127598679,161,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,1,1,http://example.com/,161,0,0
-1735127598842,156,HTTP Request,200,OK,Thread Group 1-10,text,true,,1593,113,1,1,http://example.com/,156,0,0
+1735749110368,1024,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,25921,242,2,2,https://www.trendyol.com/iso,297,0,148
+1735749110368,305,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1191,121,2,2,http://www.trendyol.com/iso,297,0,148
+1735749110677,715,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,24730,121,2,2,https://www.trendyol.com/iso,667,0,550
+1735749111409,329,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,25926,242,2,2,https://www.trendyol.com/iso,78,0,0
+1735749111409,78,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1189,121,2,2,http://www.trendyol.com/iso,78,0,0
+1735749111487,251,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,24737,121,2,2,https://www.trendyol.com/iso,197,0,0
+1735749111249,583,HTTP Request,404,Not Found,Thread Group 1-2,text,false,,25919,242,2,2,https://www.trendyol.com/iso,167,0,73
+1735749111249,167,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,1189,121,2,2,http://www.trendyol.com/iso,167,0,73
+1735749111417,415,HTTP Request-1,404,Not Found,Thread Group 1-2,text,false,,24730,121,2,2,https://www.trendyol.com/iso,331,0,143
+1735749111738,290,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,26296,242,2,2,https://www.trendyol.com/iso,94,0,0
+1735749111738,94,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1189,121,2,2,http://www.trendyol.com/iso,94,0,0
+1735749111833,195,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,25107,121,2,2,https://www.trendyol.com/iso,129,0,0
+1735749111833,299,HTTP Request,404,Not Found,Thread Group 1-2,text,false,,25917,242,2,2,https://www.trendyol.com/iso,81,0,0
+1735749111833,81,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,1189,121,2,2,http://www.trendyol.com/iso,81,0,0
+1735749111915,217,HTTP Request-1,404,Not Found,Thread Group 1-2,text,false,,24728,121,2,2,https://www.trendyol.com/iso,120,0,0
+1735749112029,305,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,25921,242,3,3,https://www.trendyol.com/iso,106,0,0
+1735749112029,106,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1191,121,3,3,http://www.trendyol.com/iso,106,0,0
+1735749112135,199,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,24730,121,3,3,https://www.trendyol.com/iso,120,0,0
+1735749112133,340,HTTP Request,404,Not Found,Thread Group 1-2,text,false,,25926,242,2,2,https://www.trendyol.com/iso,85,0,0
+1735749112133,85,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,1191,121,2,2,http://www.trendyol.com/iso,85,0,0
+1735749112219,254,HTTP Request-1,404,Not Found,Thread Group 1-2,text,false,,24735,121,2,2,https://www.trendyol.com/iso,128,0,0
+1735749112474,334,HTTP Request,404,Not Found,Thread Group 1-2,text,false,,25917,242,2,2,https://www.trendyol.com/iso,86,0,0
+1735749112474,87,HTTP Request-0,301,Moved Permanently,Thread Group 1-2,text,true,,1189,121,2,2,http://www.trendyol.com/iso,86,0,0
+1735749112561,247,HTTP Request-1,404,Not Found,Thread Group 1-2,text,false,,24728,121,2,2,https://www.trendyol.com/iso,137,0,0
+1735749112242,744,HTTP Request,404,Not Found,Thread Group 1-3,text,false,,26296,242,1,1,https://www.trendyol.com/iso,248,0,91
+1735749112242,248,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,1191,121,1,1,http://www.trendyol.com/iso,248,0,91
+1735749112491,495,HTTP Request-1,404,Not Found,Thread Group 1-3,text,false,,25105,121,1,1,https://www.trendyol.com/iso,343,0,143
+1735749112987,353,HTTP Request,404,Not Found,Thread Group 1-3,text,false,,25921,242,2,2,https://www.trendyol.com/iso,102,0,0
+1735749112987,102,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,1191,121,2,2,http://www.trendyol.com/iso,102,0,0
+1735749113089,251,HTTP Request-1,404,Not Found,Thread Group 1-3,text,false,,24730,121,2,2,https://www.trendyol.com/iso,159,0,0
+1735749113341,423,HTTP Request,404,Not Found,Thread Group 1-3,text,false,,26294,242,2,2,https://www.trendyol.com/iso,78,0,0
+1735749113341,78,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,1189,121,2,2,http://www.trendyol.com/iso,78,0,0
+1735749113419,345,HTTP Request-1,404,Not Found,Thread Group 1-3,text,false,,25105,121,2,2,https://www.trendyol.com/iso,143,0,0
+1735749113233,814,HTTP Request,404,Not Found,Thread Group 1-4,text,false,,25919,242,2,2,https://www.trendyol.com/iso,183,0,108
+1735749113233,184,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,1189,121,2,2,http://www.trendyol.com/iso,183,0,108
+1735749113419,628,HTTP Request-1,404,Not Found,Thread Group 1-4,text,false,,24730,121,2,2,https://www.trendyol.com/iso,496,0,350
+1735749113765,454,HTTP Request,404,Not Found,Thread Group 1-3,text,false,,25919,242,2,2,https://www.trendyol.com/iso,113,0,0
+1735749113765,113,HTTP Request-0,301,Moved Permanently,Thread Group 1-3,text,true,,1189,121,2,2,http://www.trendyol.com/iso,113,0,0
+1735749113879,340,HTTP Request-1,404,Not Found,Thread Group 1-3,text,false,,24730,121,2,2,https://www.trendyol.com/iso,215,0,0
+1735749114048,423,HTTP Request,404,Not Found,Thread Group 1-4,text,false,,25919,242,2,2,https://www.trendyol.com/iso,173,0,0
+1735749114048,173,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,1191,121,2,2,http://www.trendyol.com/iso,173,0,0
+1735749114222,249,HTTP Request-1,404,Not Found,Thread Group 1-4,text,false,,24728,121,2,2,https://www.trendyol.com/iso,139,0,0
+1735749114472,267,HTTP Request,404,Not Found,Thread Group 1-4,text,false,,25921,242,2,2,https://www.trendyol.com/iso,92,0,0
+1735749114472,92,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,1191,121,2,2,http://www.trendyol.com/iso,92,0,0
+1735749114565,174,HTTP Request-1,404,Not Found,Thread Group 1-4,text,false,,24730,121,2,2,https://www.trendyol.com/iso,125,0,0
+1735749114232,663,HTTP Request,404,Not Found,Thread Group 1-5,text,false,,26298,242,2,2,https://www.trendyol.com/iso,243,0,65
+1735749114232,243,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,1191,121,2,2,http://www.trendyol.com/iso,243,0,65
+1735749114477,418,HTTP Request-1,404,Not Found,Thread Group 1-5,text,false,,25107,121,2,2,https://www.trendyol.com/iso,292,0,168
+1735749114897,288,HTTP Request,404,Not Found,Thread Group 1-5,text,false,,26296,242,2,2,https://www.trendyol.com/iso,86,0,0
+1735749114897,86,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,1189,121,2,2,http://www.trendyol.com/iso,86,0,0
+1735749114983,202,HTTP Request-1,404,Not Found,Thread Group 1-5,text,false,,25107,121,2,2,https://www.trendyol.com/iso,126,0,0
+1735749114739,599,HTTP Request,404,Not Found,Thread Group 1-4,text,false,,26294,242,2,2,https://www.trendyol.com/iso,154,0,0
+1735749114739,154,HTTP Request-0,301,Moved Permanently,Thread Group 1-4,text,true,,1189,121,2,2,http://www.trendyol.com/iso,154,0,0
+1735749114894,444,HTTP Request-1,404,Not Found,Thread Group 1-4,text,false,,25105,121,2,2,https://www.trendyol.com/iso,305,0,0
+1735749115186,374,HTTP Request,404,Not Found,Thread Group 1-5,text,false,,25921,242,1,1,https://www.trendyol.com/iso,159,0,0
+1735749115186,159,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,1191,121,1,1,http://www.trendyol.com/iso,159,0,0
+1735749115345,215,HTTP Request-1,404,Not Found,Thread Group 1-5,text,false,,24730,121,1,1,https://www.trendyol.com/iso,150,0,0
+1735749115561,270,HTTP Request,404,Not Found,Thread Group 1-5,text,false,,25917,242,1,1,https://www.trendyol.com/iso,114,0,0
+1735749115561,114,HTTP Request-0,301,Moved Permanently,Thread Group 1-5,text,true,,1189,121,1,1,http://www.trendyol.com/iso,114,0,0
+1735749115676,155,HTTP Request-1,404,Not Found,Thread Group 1-5,text,false,,24728,121,1,1,https://www.trendyol.com/iso,109,0,0
+1735809129037,1031,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,25921,242,1,1,https://www.trendyol.com/iso,240,0,153
+1735809129037,251,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1191,121,1,1,http://www.trendyol.com/iso,240,0,153
+1735809129293,775,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,24730,121,1,1,https://www.trendyol.com/iso,763,0,648
+1735809130090,223,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,25919,242,1,1,https://www.trendyol.com/iso,83,0,0
+1735809130090,83,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1191,121,1,1,http://www.trendyol.com/iso,83,0,0
+1735809130174,139,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,24728,121,1,1,https://www.trendyol.com/iso,119,0,0
+1735809130313,211,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,25926,242,1,1,https://www.trendyol.com/iso,83,0,0
+1735809130313,84,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1191,121,1,1,http://www.trendyol.com/iso,83,0,0
+1735809130397,127,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,24735,121,1,1,https://www.trendyol.com/iso,112,0,0
+1735809130524,215,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,25917,242,1,1,https://www.trendyol.com/iso,87,0,0
+1735809130524,87,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1189,121,1,1,http://www.trendyol.com/iso,87,0,0
+1735809130611,128,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,24728,121,1,1,https://www.trendyol.com/iso,118,0,0
+1735811049181,1368,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,26305,242,1,1,https://www.trendyol.com/iso,481,0,365
+1735811049181,499,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1191,121,1,1,http://www.trendyol.com/iso,481,0,365
+1735811049685,864,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,25114,121,1,1,https://www.trendyol.com/iso,838,0,727
+1735811050567,280,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,25919,242,1,1,https://www.trendyol.com/iso,94,0,0
+1735811050567,94,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1191,121,1,1,http://www.trendyol.com/iso,94,0,0
+1735811050662,185,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,24728,121,1,1,https://www.trendyol.com/iso,152,0,0
+1735811050849,208,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,26298,242,1,1,https://www.trendyol.com/iso,77,0,0
+1735811050849,77,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1191,121,1,1,http://www.trendyol.com/iso,77,0,0
+1735811050926,131,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,25107,121,1,1,https://www.trendyol.com/iso,111,0,0
+1735811051058,216,HTTP Request,404,Not Found,Thread Group 1-1,text,false,,25926,242,1,1,https://www.trendyol.com/iso,82,0,0
+1735811051058,82,HTTP Request-0,301,Moved Permanently,Thread Group 1-1,text,true,,1191,121,1,1,http://www.trendyol.com/iso,82,0,0
+1735811051141,133,HTTP Request-1,404,Not Found,Thread Group 1-1,text,false,,24735,121,1,1,https://www.trendyol.com/iso,101,0,0
