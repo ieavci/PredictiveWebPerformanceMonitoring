@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWPM - AI-Powered Software Testing</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            margin-bottom: 30px;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 15px 30px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            transform: translateY(-5px);
+        }
+
+        .banner {
+            position: relative;
+            /* İçerik ve blur'lı overlay'yi düzenlemek için */
+            background: url('../static/img/afsi1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        
+
+
+        .banner img {
+            width: 450px;
+            height: auto;
+            margin-bottom: 30px;
+
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .section.bg-light {
+            background-color: #2d2d2d;
+            color: white;
+        }
+
+        .features-icon {
+            font-size: 60px;
+            color: #4CAF50;
+        }
+
+        .feature-item {
+            text-align: center;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-item h4 {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+
+        .get-started-btn {
+            margin-top: 50px;
+            font-size: 20px;
+            padding: 20px 40px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .get-started-btn:hover {
+            background-color: #45a049;
+            transform: translateY(-5px);
+        }
+
+
+
+
+        @keyframes r {
+            0% {
+                transform: perspective(450px) rotateX(-100deg) rotate(0deg)
+            }
+
+            to {
+                transform: perspective(450px) rotateX(-100deg) rotate(-360deg)
+            }
+        }
+
+
+
+
+
+        .footer {
+            background-color: #333;
+            padding: 40px 0;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container">
+            <img src="../static/img/pwpm2.png" alt="PWPM Logo">
+            <h1 class="display-4">PWPM AI-Powered Software Testing</h1>
+            <p class="lead my-5">Optimize load testing with AI-driven insights and anomaly detection.</p>
+            <a href="/test" style="text-decoration: none; color: white;" class="get-started-btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About PWPM -->
+    <section class="section bg-dark">
+        <div class="container">
+            <h2 class="text-center">About PWPM</h2>
+            <p class="lead">PWPM is a powerful platform for conducting load testing using JMeter. It analyzes test
+                results and leverages an LSTM model for anomaly detection, providing actionable insights. The results
+                are visualized and summarized, helping you understand system behavior under stress.</p>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center">Features</h2>
+            <div class="row">
+                <div class="col-md-4 feature-item">
+                    <i class="fas fa-chart-line features-icon"></i>
+                    <h4>Data Analysis & Visualization</h4>
+                    <p>Test data is visualized for better understanding of system behavior.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <i class="fas fa-cogs features-icon"></i>
+                    <h4>AI-Driven Anomaly Detection</h4>
+                    <p>Leverage the power of LSTM models to detect anomalies in system performance.</p>
+                </div>
+                <div class="col-md-4 feature-item">
+                    <i class="fas fa-server features-icon"></i>
+                    <h4>Dynamic Test Data</h4>
+                    <p>Run load tests with dynamic and updated test data for accurate results.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slider -->
+        <div id="feature-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="../static/img/gf3.png" class="card-img-top" alt="many clothes and pictures">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="../static/img/gf4.png" class="card-img-top"
+                                    alt="someone preparing artisanal coffee">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="../static/img/gf1.png" class="card-img-top" alt="some tee">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="../static/img/gf2.png" class="card-img-top"
+                                    alt="an empty table in a restaurant">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="../static/img/gf3.png" class="card-img-top" alt="a laptop with a notebook">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="../static/img/gf4.png" class="card-img-top"
+                                    alt="a laptop and many books around it">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#feature-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#feature-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 PWPM. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

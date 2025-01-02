@@ -47,9 +47,14 @@ update_summary_results = SourceFileLoader(
 # Flask app setup   
 app = Flask(__name__)
 
+@app.route('/test')
+def test():
+    return render_template('index.html')
+
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('homepage.html')
+
 
 from ai_input_generator.generate_test_plan import create_test_plan, update_jmx
 
@@ -59,7 +64,7 @@ def generate_test_plan():
     user_count = request.form.get("user_count", 10)
     loop_count = request.form.get("loop_count", 1)
     base_url = request.form.get("base_url", "localhost")
-    path = request.form.get("path", "/")
+    path = request.form.get("path", "/test")
 
     # Test planını oluştur
     create_test_plan(user_count, loop_count, base_url, path)
