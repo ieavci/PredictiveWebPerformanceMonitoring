@@ -54,7 +54,7 @@ def lstm_anomaly_detection(file_path, time_steps=10, dynamic_threshold=True, thr
         ])
         model.compile(optimizer='adam', loss='mse')
 
-        model.fit(X_train, y_train, epochs=2, batch_size=32, verbose=1, validation_data=(X_test, y_test))
+        model.fit(X_train, y_train, epochs=20, batch_size=32, verbose=1, validation_data=(X_test, y_test))
 
         predictions = model.predict(X_test)
         reconstruction_errors = np.mean((y_test - predictions) ** 2, axis=1)

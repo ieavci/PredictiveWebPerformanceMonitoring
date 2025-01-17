@@ -1,62 +1,62 @@
-2025-01-02 15:19:54,802 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2025-01-02 15:19:54,844 INFO o.a.j.JMeter: Loading user properties from: C:\Users\iavcc\Downloads\Programs\JMeter\apache-jmeter-5.6.3\bin\user.properties
-2025-01-02 15:19:54,844 INFO o.a.j.JMeter: Loading system properties from: C:\Users\iavcc\Downloads\Programs\JMeter\apache-jmeter-5.6.3\bin\system.properties
-2025-01-02 15:19:54,860 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2025-01-02 15:19:54,860 INFO o.a.j.JMeter: Version 5.6.3
-2025-01-02 15:19:54,860 INFO o.a.j.JMeter: java.version=19.0.1
-2025-01-02 15:19:54,860 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2025-01-02 15:19:54,860 INFO o.a.j.JMeter: os.name=Windows 11
-2025-01-02 15:19:54,860 INFO o.a.j.JMeter: os.arch=amd64
-2025-01-02 15:19:54,861 INFO o.a.j.JMeter: os.version=10.0
-2025-01-02 15:19:54,861 INFO o.a.j.JMeter: file.encoding=UTF-8
-2025-01-02 15:19:54,861 INFO o.a.j.JMeter: java.awt.headless=true
-2025-01-02 15:19:54,861 INFO o.a.j.JMeter: Max memory     =1073741824
-2025-01-02 15:19:54,862 INFO o.a.j.JMeter: Available Processors =8
-2025-01-02 15:19:54,883 INFO o.a.j.JMeter: Default Locale=English (EN)
-2025-01-02 15:19:54,883 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2025-01-02 15:19:54,883 INFO o.a.j.JMeter: JMeterHome=C:\Users\iavcc\Downloads\Programs\JMeter\apache-jmeter-5.6.3
-2025-01-02 15:19:54,883 INFO o.a.j.JMeter: user.dir  =C:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI
-2025-01-02 15:19:54,884 INFO o.a.j.JMeter: PWD       =C:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI
-2025-01-02 15:19:54,890 INFO o.a.j.JMeter: IP: 192.168.125.130 Name: IsmailAvci FullName: IsmailAvci
-2025-01-02 15:19:54,916 INFO o.a.j.s.FileServer: Default base='C:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI'
-2025-01-02 15:19:54,919 INFO o.a.j.s.FileServer: Set new base='c:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI\inputs'
-2025-01-02 15:19:55,248 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2025-01-02 15:19:55,297 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2025-01-02 15:19:55,302 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2025-01-02 15:19:55,304 INFO o.a.j.s.SaveService: Loading file: c:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI\inputs\dynamic_test_plan.jmx
-2025-01-02 15:19:55,414 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-01-02 15:19:55,414 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-01-02 15:19:55,415 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-01-02 15:19:55,415 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-01-02 15:19:55,415 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2025-01-02 15:19:55,415 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2025-01-02 15:19:55,450 INFO o.a.j.JMeter: Creating summariser <summary>
-2025-01-02 15:19:55,472 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-01-02 15:19:55,473 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-01-02 15:19:55,473 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-01-02 15:19:55,477 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2025-01-02 15:19:55,477 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2025-01-02 15:19:55,599 INFO o.a.j.JMeter: Running test (1735820395598)
-2025-01-02 15:19:55,619 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2025-01-02 15:19:55,621 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2025-01-02 15:19:55,621 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-01-02 15:19:55,621 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 delayedStart=false
-2025-01-02 15:19:55,625 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-01-02 15:19:55,625 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-01-02 15:19:55,629 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2025-01-02 15:19:55,661 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = IsmailAvci
-2025-01-02 15:19:55,668 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2025-01-02 15:19:55,670 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2025-01-02 15:19:55,670 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2025-01-02 15:19:55,670 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2025-01-02 15:19:55,670 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2025-01-02 15:19:56,076 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2025-01-02 15:19:56,093 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2025-01-02 15:19:56,093 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2025-01-02 15:19:56,282 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2025-01-02 15:19:56,291 INFO o.a.j.u.SSLManager: KeyStore created OK
-2025-01-02 15:19:56,291 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2025-01-02 15:19:57,578 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2025-01-02 15:19:57,578 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2025-01-02 15:19:57,598 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-01-02 15:19:57,598 INFO o.a.j.r.Summariser: summary =      4 in 00:00:02 =    2.0/s Avg:   440 Min:   199 Max:  1069 Err:     4 (100.00%)
+2025-01-02 18:27:09,955 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-01-02 18:27:09,996 INFO o.a.j.JMeter: Loading user properties from: C:\Users\iavcc\Downloads\Programs\JMeter\apache-jmeter-5.6.3\bin\user.properties
+2025-01-02 18:27:10,000 INFO o.a.j.JMeter: Loading system properties from: C:\Users\iavcc\Downloads\Programs\JMeter\apache-jmeter-5.6.3\bin\system.properties
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: Version 5.6.3
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: java.version=19.0.1
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: os.name=Windows 11
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: os.arch=amd64
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: os.version=10.0
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: java.awt.headless=true
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-01-02 18:27:10,022 INFO o.a.j.JMeter: Available Processors =8
+2025-01-02 18:27:10,046 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-01-02 18:27:10,046 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-01-02 18:27:10,046 INFO o.a.j.JMeter: JMeterHome=C:\Users\iavcc\Downloads\Programs\JMeter\apache-jmeter-5.6.3
+2025-01-02 18:27:10,046 INFO o.a.j.JMeter: user.dir  =C:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI
+2025-01-02 18:27:10,046 INFO o.a.j.JMeter: PWD       =C:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI
+2025-01-02 18:27:10,055 INFO o.a.j.JMeter: IP: 10.192.119.54 Name: IsmailAvci FullName: 10.192.119.54
+2025-01-02 18:27:10,092 INFO o.a.j.s.FileServer: Default base='C:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI'
+2025-01-02 18:27:10,109 INFO o.a.j.s.FileServer: Set new base='c:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI\inputs'
+2025-01-02 18:27:10,685 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-01-02 18:27:10,807 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-01-02 18:27:10,821 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-01-02 18:27:10,821 INFO o.a.j.s.SaveService: Loading file: c:\Users\iavcc\Documents\GitHub\PredictiveWebPerformanceMonitoring\JMeter-AI\inputs\dynamic_test_plan.jmx
+2025-01-02 18:27:11,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-01-02 18:27:11,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-01-02 18:27:11,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-01-02 18:27:11,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-01-02 18:27:11,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-01-02 18:27:11,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-01-02 18:27:11,044 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-01-02 18:27:11,089 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-01-02 18:27:11,091 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-01-02 18:27:11,091 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-01-02 18:27:11,108 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-01-02 18:27:11,108 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-01-02 18:27:11,237 INFO o.a.j.JMeter: Running test (1735831631237)
+2025-01-02 18:27:11,261 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2025-01-02 18:27:11,261 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2025-01-02 18:27:11,261 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-01-02 18:27:11,261 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=5 delayedStart=false
+2025-01-02 18:27:11,272 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-01-02 18:27:11,272 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-01-02 18:27:11,274 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2025-01-02 18:27:11,305 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = IsmailAvci
+2025-01-02 18:27:11,321 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-01-02 18:27:11,322 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-01-02 18:27:11,322 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-01-02 18:27:11,322 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-01-02 18:27:11,322 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-01-02 18:27:12,022 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-01-02 18:27:12,057 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-01-02 18:27:12,057 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-01-02 18:27:12,474 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-01-02 18:27:12,479 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-01-02 18:27:12,479 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-01-02 18:27:15,498 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2025-01-02 18:27:15,498 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2025-01-02 18:27:15,514 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-01-02 18:27:15,522 INFO o.a.j.r.Summariser: summary =      4 in 00:00:04 =    0.9/s Avg:   999 Min:   459 Max:  2192 Err:     0 (0.00%)

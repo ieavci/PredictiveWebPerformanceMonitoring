@@ -1,2 +1,4 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect,reconstruction_error,is_anomaly
-1735820395803,1069,HTTP Request,404,Not Found,Thread Group 1-1,text,False,,25928,242,1,1,https://www.trendyol.com/iso,255,0,149,0.533209765540363,True
+1735827512707,11013,HTTP Request,200,OK,Thread Group 1-9,text,True,,280964,236,8,8,https://www.trendyol.com/,1695,0,874,0.6123625237288394,True
+1735827517288,11871,HTTP Request,200,OK,Thread Group 1-7,text,True,,280969,236,1,1,https://www.trendyol.com/,458,0,0,0.8198491225830162,True
+1735827517747,11412,HTTP Request-1,200,OK,Thread Group 1-7,text,True,,279783,118,1,1,https://www.trendyol.com/,11298,0,0,0.7307778445233291,True
